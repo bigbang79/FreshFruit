@@ -12,14 +12,15 @@
         <module>Fresh_Common</module>
         <module>Fresh_Domain</module>
         <module>Fresh_Mapper</module>
-        <module>Fresh_Web</module>
         <module>Fresh_UserService</module>
         <module>Fresh_UserServiceProvider</module>
-        <module>Fresh_Web</module>
         <module>Fresh_SSOController</module>
         <module>Fresh_SSOService</module>
         <module>Fresh_SSOServiceProvider</module>
         <module>Fresh_WebController</module>
+        <module>Fresh_ShareService</module>
+        <module>Fresh_ShareServcieProvider</module>
+        <module>Fresh_ShareController</module>
     </modules>
 
 

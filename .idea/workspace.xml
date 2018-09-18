@@ -1,7 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7958b453-2d53-42e7-93ef-9438b3bb125b" name="Default" comment="" />
+    <list default="true" id="7958b453-2d53-42e7-93ef-9438b3bb125b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_Common/Fresh_Common.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/email/EmailMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/email/EmailUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/redis/JedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/result/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/util/Base64Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/util/CookieUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/util/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/util/EncrypUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/util/ExcelUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/util/FDFSUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/util/FileUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/util/HttpUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/util/IPUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/util/IdGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/util/LoginUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/util/OSSUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/util/ResultUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/util/SpringContextUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_Domain/Fresh_Domain.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_Domain/src/main/java/com/fruit/domain/share/Share.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_Domain/src/main/java/com/fruit/domain/share/ShareCollect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_Domain/src/main/java/com/fruit/domain/share/ShareComment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_Domain/src/main/java/com/fruit/domain/share/ShareDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_Domain/src/main/java/com/fruit/domain/share/ShareImages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_Domain/src/main/java/com/fruit/domain/share/ShareLetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_Domain/src/main/java/com/fruit/domain/share/ShareType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_Mapper/Fresh_Mapper.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_Mapper/src/main/java/com/fruit/mapper/share/ShareCollectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_Mapper/src/main/java/com/fruit/mapper/share/ShareCollectMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_Mapper/src/main/java/com/fruit/mapper/share/ShareCommentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_Mapper/src/main/java/com/fruit/mapper/share/ShareCommentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_Mapper/src/main/java/com/fruit/mapper/share/ShareDetailMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_Mapper/src/main/java/com/fruit/mapper/share/ShareDetailMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_Mapper/src/main/java/com/fruit/mapper/share/ShareImagesMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_Mapper/src/main/java/com/fruit/mapper/share/ShareImagesMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_Mapper/src/main/java/com/fruit/mapper/share/ShareLetterMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_Mapper/src/main/java/com/fruit/mapper/share/ShareLetterMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_Mapper/src/main/java/com/fruit/mapper/share/ShareMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_Mapper/src/main/java/com/fruit/mapper/share/ShareMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_Mapper/src/main/java/com/fruit/mapper/share/ShareTypeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_Mapper/src/main/java/com/fruit/mapper/share/ShareTypeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_SSOController/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_SSOServiceProvider/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_ShareController/Fresh_ShareController.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_ShareController/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_ShareController/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_ShareServcieProvider/Fresh_ShareServcieProvider.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_ShareServcieProvider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_ShareServcieProvider/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_ShareService/Fresh_ShareService.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_UserServiceProvider/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_WebController/Fresh_WebController.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh_WebController/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fresh__WebController/Fresh__WebController.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fresh.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fresh_Common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_Common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fresh_Domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_Domain/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fresh_SSOController/Fresh_SSOController.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_SSOController/Fresh_SSOController.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fresh_SSOService/Fresh_SSOService.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_SSOService/Fresh_SSOService.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fresh_SSOServiceProvider/Fresh_SSOServiceProvider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_SSOServiceProvider/Fresh_SSOServiceProvider.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fresh_UserService/Fresh_UserService.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_UserService/Fresh_UserService.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fresh_UserServiceProvider/Fresh_UserServiceProvider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_UserServiceProvider/Fresh_UserServiceProvider.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fresh_Web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_ShareService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Fresh_Web/target/" />
@@ -15,6 +86,9 @@
     <ignored path="$PROJECT_DIR$/Fresh_WebController/target/" />
     <ignored path="$PROJECT_DIR$/Fresh_SSOServiceProvider/target/" />
     <ignored path="$PROJECT_DIR$/Fresh_SSOController/target/" />
+    <ignored path="$PROJECT_DIR$/Fresh_ShareService/target/" />
+    <ignored path="$PROJECT_DIR$/Fresh_ShareServcieProvider/target/" />
+    <ignored path="$PROJECT_DIR$/Fresh_ShareController/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,42 +96,52 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fresh_SSOController/pom.xml">
+        <entry file="file://$PROJECT_DIR$/Fresh_Mapper/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+            <state relative-caret-position="170">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fresh_SSOService/pom.xml">
+        <entry file="file://$PROJECT_DIR$/Fresh_Domain/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+            <state relative-caret-position="170">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fresh_SSOServiceProvider/pom.xml">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="323">
+              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fresh_UserService/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
-            </state>
-          </provider>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fresh_WebController/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
@@ -69,65 +153,58 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Fresh_WebController/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-            </state>
-          </provider>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fresh_UserServiceProvider/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="235" column="10" selection-start-line="235" selection-start-column="10" selection-end-line="235" selection-end-column="10" />
-            </state>
-          </provider>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fresh_SSOServiceProvider/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fresh_Common/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-391">
-              <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-            </state>
-          </provider>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fresh_SSOController/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fresh_Domain/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fresh_ShareServcieProvider/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fresh_Mapper/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-            </state>
-          </provider>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Fresh_ShareController/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/Fresh_Common/pom.xml" />
-        <option value="$PROJECT_DIR$/Fresh_Mapper/pom.xml" />
         <option value="$PROJECT_DIR$/Fresh_SSOController/pom.xml" />
         <option value="$PROJECT_DIR$/Fresh_SSOService/pom.xml" />
         <option value="$PROJECT_DIR$/Fresh_SSOServiceProvider/pom.xml" />
         <option value="$PROJECT_DIR$/Fresh_UserService/pom.xml" />
         <option value="$PROJECT_DIR$/Fresh_UserServiceProvider/pom.xml" />
         <option value="$PROJECT_DIR$/Fresh_WebController/pom.xml" />
+        <option value="$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/result/R.java" />
+        <option value="$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/email/EmailUtils.java" />
+        <option value="$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/cros/CROSFilter.java" />
+        <option value="$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/util/LoginUtil.java" />
+        <option value="$PROJECT_DIR$/Fresh_Mapper/src/main/java/com/fruit/mapper/share/ShareCollectMapper.java" />
+        <option value="$PROJECT_DIR$/Fresh_Domain/src/main/com.fruit.domain.share/ShareCollect.java" />
+        <option value="$PROJECT_DIR$/Fresh_Domain/src/main/com.fruit.domain.share/Share.java" />
+        <option value="$PROJECT_DIR$/Fresh_Domain/pom.xml" />
+        <option value="$PROJECT_DIR$/Fresh_Domain/src/main/java/Share.java" />
+        <option value="$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/util/ResultUtil.java" />
+        <option value="$PROJECT_DIR$/Fresh_Common/pom.xml" />
+        <option value="$PROJECT_DIR$/Fresh_Mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -150,22 +227,66 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Fresh" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Fresh" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Fresh_Common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Fresh_Common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Fresh_Domain" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Fresh_Domain" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Fresh_Mapper" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Fresh_Mapper" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="462" />
-    <option name="y" value="141" />
-    <option name="width" value="1360" />
-    <option name="height" value="798" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="112" />
+    <option name="y" value="40" />
+    <option name="width" value="1188" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,11 +294,225 @@
               <item name="Fresh" type="b2602c69:ProjectViewProjectNode" />
               <item name="Fresh" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Fresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fresh" type="462c0819:PsiDirectoryNode" />
+              <item name="Fresh_Domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fresh" type="462c0819:PsiDirectoryNode" />
+              <item name="Fresh_ShareController" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fresh" type="462c0819:PsiDirectoryNode" />
+              <item name="Fresh_ShareController" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fresh" type="462c0819:PsiDirectoryNode" />
+              <item name="Fresh_ShareController" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fresh" type="462c0819:PsiDirectoryNode" />
+              <item name="Fresh_ShareController" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fresh" type="462c0819:PsiDirectoryNode" />
+              <item name="Fresh_ShareController" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fresh" type="462c0819:PsiDirectoryNode" />
+              <item name="Fresh_ShareServcieProvider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fresh" type="462c0819:PsiDirectoryNode" />
+              <item name="Fresh_ShareServcieProvider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fresh" type="462c0819:PsiDirectoryNode" />
+              <item name="Fresh_ShareServcieProvider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fresh" type="462c0819:PsiDirectoryNode" />
+              <item name="Fresh_ShareServcieProvider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fresh" type="462c0819:PsiDirectoryNode" />
+              <item name="Fresh_ShareServcieProvider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fresh" type="462c0819:PsiDirectoryNode" />
+              <item name="Fresh_SSOController" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fresh" type="462c0819:PsiDirectoryNode" />
+              <item name="Fresh_SSOController" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fresh" type="462c0819:PsiDirectoryNode" />
+              <item name="Fresh_SSOController" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fresh" type="462c0819:PsiDirectoryNode" />
+              <item name="Fresh_SSOController" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fresh" type="462c0819:PsiDirectoryNode" />
+              <item name="Fresh_SSOController" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fresh" type="462c0819:PsiDirectoryNode" />
+              <item name="Fresh_SSOServiceProvider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fresh" type="462c0819:PsiDirectoryNode" />
+              <item name="Fresh_SSOServiceProvider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fresh" type="462c0819:PsiDirectoryNode" />
+              <item name="Fresh_SSOServiceProvider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fresh" type="462c0819:PsiDirectoryNode" />
+              <item name="Fresh_SSOServiceProvider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fresh" type="462c0819:PsiDirectoryNode" />
+              <item name="Fresh_SSOServiceProvider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fresh" type="462c0819:PsiDirectoryNode" />
+              <item name="Fresh_UserServiceProvider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fresh" type="462c0819:PsiDirectoryNode" />
+              <item name="Fresh_UserServiceProvider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fresh" type="462c0819:PsiDirectoryNode" />
+              <item name="Fresh_UserServiceProvider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fresh" type="462c0819:PsiDirectoryNode" />
+              <item name="Fresh_UserServiceProvider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fresh" type="462c0819:PsiDirectoryNode" />
+              <item name="Fresh_UserServiceProvider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fresh" type="462c0819:PsiDirectoryNode" />
+              <item name="Fresh_WebController" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fresh" type="462c0819:PsiDirectoryNode" />
+              <item name="Fresh_WebController" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fresh" type="462c0819:PsiDirectoryNode" />
+              <item name="Fresh_WebController" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fresh" type="462c0819:PsiDirectoryNode" />
+              <item name="Fresh_WebController" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fresh" type="462c0819:PsiDirectoryNode" />
+              <item name="Fresh_WebController" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -186,7 +521,22 @@
     <property name="last_opened_file_path" value="D:/svn001" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.fruit.common.cros" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\classrep\Fresh\Fresh_ShareController\src\main" />
+      <recent name="D:\classrep\Fresh\Fresh_ShareServcieProvider\src\main" />
+      <recent name="D:\classrep\Fresh\Fresh_SSOController\src\main" />
+      <recent name="D:\classrep\Fresh\Fresh_SSOServiceProvider\src\main" />
+      <recent name="D:\classrep\Fresh\Fresh_UserServiceProvider\src\main" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -254,46 +604,53 @@
       <option name="presentableId" value="Default" />
       <updated>1537187526788</updated>
       <workItem from="1537187529213" duration="2020000" />
+      <workItem from="1537191214035" duration="1556000" />
+      <workItem from="1537231753334" duration="134000" />
+      <workItem from="1537257828150" duration="1454000" />
+      <workItem from="1537272361456" duration="534000" />
+      <workItem from="1537273066430" duration="599000" />
+      <workItem from="1537274043359" duration="1726000" />
+      <workItem from="1537279135907" duration="70000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2020000" />
+    <option name="totallyTimeSpent" value="8093000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="370" y="113" width="1088" height="638" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.32950193" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.34651473" side_tool="true" weight="0.40876946" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.23927614" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3297587" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
+      <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36407766" />
-      <window_info id="Web" side_tool="true" />
-      <window_info anchor="right" id="BPMNPalette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.65348524" weight="0.3069307" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2855228" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="right" id="BPMNPalette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,50 +660,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FreshUserService/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UserServiceProvider/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fresh_Web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fresh__WebController/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="235" column="10" selection-start-line="235" selection-start-column="10" selection-end-line="235" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fresh_Domain/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fresh_Mapper/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fresh_Common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-391">
-          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Fresh_SSOService/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -356,29 +669,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Fresh_SSOController/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="408">
           <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Fresh_SSOServiceProvider/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
+        <state relative-caret-position="527">
           <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Fresh_UserService/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
+        <state relative-caret-position="527">
           <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fresh_UserServiceProvider/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -389,12 +695,284 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_ShareService/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_ShareServcieProvider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/util/ExcelUtils.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/util/HttpUtils.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/util/SpringContextUtils.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/util/EncrypUtil.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/util/IPUtils.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/util/DateUtil.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/util/Base64Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/util/OSSUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_ShareController/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_Domain/src/main/java/com/fruit/domain/Share.java" />
+    <entry file="file://$PROJECT_DIR$/Fresh_Domain/src/main/java/com/fruit/domain/ShareCollect.java" />
+    <entry file="file://$PROJECT_DIR$/Fresh_Domain/src/main/java/com/fruit/domain/ShareImages.java" />
+    <entry file="file://$PROJECT_DIR$/Fresh_Web/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/Fresh_Domain/src/main/com.fruit.domain.share/ShareType.java" />
+    <entry file="file://$PROJECT_DIR$/Fresh_Domain/src/main/com.fruit.domain.share/ShareLetter.java" />
+    <entry file="file://$PROJECT_DIR$/Fresh_Domain/src/main/com.fruit.domain.share/ShareDetail.java" />
+    <entry file="file://$PROJECT_DIR$/Fresh_Domain/src/main/com.fruit.domain.share/Share.java" />
+    <entry file="file://$PROJECT_DIR$/Fresh_Domain/src/main/com.fruit.domain.share/ShareCollect.java" />
+    <entry file="file://$PROJECT_DIR$/Fresh_Domain/src/main/java/Share.java" />
+    <entry file="file://$PROJECT_DIR$/Fresh_Mapper/src/main/java/com/fruit/mapper/share/ShareLetterMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_Mapper/src/main/java/com/fruit/mapper/share/ShareCollectMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_Domain/src/main/java/com/fruit/domain/share/Share.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_Mapper/src/main/java/com/fruit/mapper/share/ShareCollectMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_Mapper/src/main/java/com/fruit/mapper/share/ShareCommentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_Domain/src/main/java/com/fruit/domain/share/ShareCollect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/result/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_Common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="150" column="21" selection-start-line="150" selection-start-column="21" selection-end-line="150" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/util/FDFSUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-322">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/util/ResultUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/util/LoginUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/email/EmailMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/email/EmailUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/cros/CROSFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="73" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/redis/JedisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_Mapper/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_Domain/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_WebController/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_UserServiceProvider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_UserServiceProvider/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_SSOServiceProvider/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_SSOController/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_ShareServcieProvider/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_ShareController/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>Fresh_SSOController:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Fresh</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.101tec:zkclient:0.10</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
