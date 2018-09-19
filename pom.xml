@@ -21,6 +21,9 @@
         <module>Fresh_ShareService</module>
         <module>Fresh_ShareServcieProvider</module>
         <module>Fresh_ShareController</module>
+        <module>Fresh_FruitService</module>
+        <module>Fresh_FruitServiceProvider</module>
+        <module>Fresh_FruitController</module>
     </modules>
 
 

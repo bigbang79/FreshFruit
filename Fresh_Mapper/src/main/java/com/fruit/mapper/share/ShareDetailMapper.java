@@ -3,7 +3,7 @@ package com.fruit.mapper.share;
 import com.fruit.domain.share.ShareDetail;
 
 public interface ShareDetailMapper {
-    int deleteByPrimaryKey(Integer id);
+    int deleteBySid(Integer sid);
 
     int insert(ShareDetail record);
 

@@ -1,9 +1,14 @@
 package com.fruit.mapper.share;
 
 import com.fruit.domain.share.ShareImages;
+import org.apache.ibatis.annotations.Param;
+import org.apache.ibatis.annotations.ResultType;
+import org.apache.ibatis.annotations.Select;
+
+import java.util.List;
 
 public interface ShareImagesMapper {
-    int deleteByPrimaryKey(Integer id);
+    int deleteBySid(Integer sid);
 
     int insert(ShareImages record);
 
@@ -14,4 +19,8 @@ public interface ShareImagesMapper {
     int updateByPrimaryKeySelective(ShareImages record);
 
     int updateByPrimaryKey(ShareImages record);
+    int save(@Param("list") List<String> photos, @Param("sid") int sid);
+    @Select("select * from t_shareimages where sid=#{sid}")
+    @ResultType(ShareImages.class)
+    List<ShareImages> queryBySid(int sid);
 }

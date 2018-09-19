@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.fruit.mapper.fruit.RepertoryMapper">
+	<resultMap id="BaseResultMap" type="com.fruit.domain.fruit.Repertory">
+	    <id column="repertory_id" property="repertoryId" jdbcType="INTEGER" />
+	    <result column="item_id" property="itemId" jdbcType="INTEGER" />
+	    <result column="item_total_num" property="itemTotalNum" jdbcType="INTEGER" />
+	    <result column="item_surplus_num" property="itemSurplusNum" jdbcType="INTEGER" />
+	    <result column="state" property="state" jdbcType="INTEGER" />
+	</resultMap>
+	
+	<sql id="Base_Column_List">
+		repertory_id, item_id, item_total_num, item_surplus_num, state
+	</sql>
+	
+	<!-- 新增库存（在新增一件商品的时候就需要新增一条库存信息） -->
+    <insert id="insertRepertory" parameterType="com.fruit.domain.fruit.Repertory">
+        insert into t_repertory (repertory_id, item_id, item_total_num, item_surplus_num)
+        values (#{repertoryId}, #{itemId}, #{itemTotalNum}, #{itemSurplusNum})
+    </insert>	
+	
+	<!-- 修改商品库存总量 -->
+    <update id="updateRepertoryItemTotalNum" parameterType="com.fruit.domain.fruit.Repertory">
+        update t_repertory
+        set item_total_num = #{itemTotalNum}
+        where repertory_id = #{repertoryId}
+    </update>	
+	
+	<!-- 修改商品库存剩余量（在商品售出的时候对其减少，商品退货的时候对其增加） -->
+    <update id="updateRepertoryItemSurplusNum" parameterType="java.lang.Integer">
+        update t_repertory
+        set 
+        item_surplus_num = item_surplus_num - 1
+        where item_id = #{itemId}
+    </update>	
+
+	<!-- 查询库存（通过itemId） -->
+	<select id="getRepertory" resultMap="BaseResultMap" parameterType="java.lang.Integer">
+        select
+        <include refid="Base_Column_List" />
+        from t_repertory
+        where item_id = #{itemId}
+    </select>
+    
+    <!-- 修改库存表state -->
+    <update id="updateRepertoryState" parameterType="com.fruit.domain.fruit.Repertory">
+        update t_repertory set state = #{state} where repertory_id = #{repertoryId}
+    </update>	
+
+</mapper>

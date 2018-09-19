@@ -10,6 +10,17 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>Fresh_ShareServcieProvider</artifactId>
-
+    <dependencies>
+        <dependency>
+            <groupId>com.freshfruit</groupId>
+            <artifactId>Fresh_ShareService</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.freshfruit</groupId>
+            <artifactId>Fresh_Mapper</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
 
 </project>
