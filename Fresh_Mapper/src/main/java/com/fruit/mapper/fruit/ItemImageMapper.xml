@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.fruit.mapper.fruit.ItemImageMapper">
+	<resultMap id="BaseResultMap" type="com.fruit.domain.fruit.ItemImage">
+	    <id column="item_image_id" property="itemImageId" jdbcType="INTEGER" />
+	    <result column="item_id" property="itemId" jdbcType="INTEGER" />
+	    <result column="item_image_cover" property="itemImageCover" jdbcType="VARCHAR" />
+	    <result column="item_image_show1" property="itemImageShow1" jdbcType="VARCHAR" />
+	    <result column="item_image_show2" property="itemImageShow2" jdbcType="VARCHAR" />
+	    <result column="item_image_show3" property="itemImageShow3" jdbcType="VARCHAR" />
+	    <result column="item_image_show4" property="itemImageShow4" jdbcType="VARCHAR" />
+	    <result column="item_image_show5" property="itemImageShow5" jdbcType="VARCHAR" />
+	    <result column="item_image_show6" property="itemImageShow6" jdbcType="VARCHAR" />
+	    <result column="state" property="state" jdbcType="INTEGER" />
+	</resultMap>
+	
+	<sql id="Base_Column_List">
+		item_image_id, item_id, item_image_cover, item_image_show1, item_image_show2,
+		item_image_show3,
+		item_image_show4, item_image_show5, item_image_show6, state
+	</sql>
+	
+	<!-- 新增商品图片 -->
+    <insert id="insertItemImage" parameterType="com.fruit.domain.fruit.ItemImage" useGeneratedKeys="true">
+        insert into t_item_image (item_image_id, item_id, item_image_cover,
+        item_image_show1, item_image_show2, item_image_show3,
+        item_image_show4, item_image_show5, item_image_show6)
+        values (#{itemImageId}, #{itemId}, #{itemImageCover},
+        #{itemImageShow1}, #{itemImageShow2}, #{itemImageShow3},
+        #{itemImageShow4}, #{itemImageShow5}, #{itemImageShow6})
+    </insert>	
+	
+	<!-- 修改商品图片 -->
+    <update id="updateItemImage" parameterType="com.fruit.domain.fruit.ItemImage">
+        update t_item_image
+        set item_id = #{itemId},
+        item_image_cover = #{itemImageCover},
+        item_image_show1 = #{itemImageShow1},
+        item_image_show2 = #{itemImageShow2},
+        item_image_show3 = #{itemImageShow3},
+        item_image_show4 = #{itemImageShow4},
+        item_image_show5 = #{itemImageShow5},
+        item_image_show6 = #{itemImageShow6}
+        where item_image_id = #{itemImageId}
+    </update>
+    
+    <!-- 修改商品图片state -->
+    <update id="updateItemImageState" parameterType="com.fruit.domain.fruit.ItemImage">
+        update t_item_image
+        set state = #{state}
+        where item_image_id = #{itemImageId}
+    </update>
+	
+</mapper>

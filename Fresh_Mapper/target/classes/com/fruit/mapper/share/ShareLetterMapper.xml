@@ -21,7 +21,7 @@
     delete from t_shareletter
     where id = #{id,jdbcType=INTEGER}
   </delete>
-  <insert id="insert" parameterType="com.fruit.domain.share.ShareLetter" >
+  <insert id="insert" parameterType="com.fruit.domain.share.ShareLetter" useGeneratedKeys="true">
     <selectKey resultType="java.lang.Integer" keyProperty="id" order="AFTER" >
       SELECT LAST_INSERT_ID()
     </selectKey>

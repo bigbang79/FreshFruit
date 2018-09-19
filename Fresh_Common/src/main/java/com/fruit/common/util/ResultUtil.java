@@ -8,7 +8,7 @@ import com.fruit.common.result.R;
  */
 public class ResultUtil {
     public static R createResult(int res){
-        if(res>0){
+        if(res==1){
             return R.setOK();
         }else {
             return R.setError();
