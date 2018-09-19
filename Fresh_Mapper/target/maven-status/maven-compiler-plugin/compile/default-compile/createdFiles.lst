@@ -1,7 +1,11 @@
 com\fruit\mapper\share\ShareDetailMapper.class
 com\fruit\mapper\share\ShareLetterMapper.class
+com\fruit\mapper\car\CarMapper.class
 com\fruit\mapper\share\ShareCommentMapper.class
 com\fruit\mapper\share\ShareMapper.class
 com\fruit\mapper\share\ShareCollectMapper.class
 com\fruit\mapper\share\ShareTypeMapper.class
 com\fruit\mapper\share\ShareImagesMapper.class
+com\fruit\mapper\car\OrderMapper.class
+com\fruit\mapper\car\OrderInfoMapper.class
+com\fruit\mapper\car\CarInfoMapper.class

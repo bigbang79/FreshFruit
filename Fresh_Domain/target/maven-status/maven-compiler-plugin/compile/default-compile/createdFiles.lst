@@ -1,7 +1,12 @@
 com\fruit\domain\share\ShareComment.class
+com\fruit\domain\car\OrderInfo.class
 com\fruit\domain\share\Share.class
 com\fruit\domain\share\ShareImages.class
+com\fruit\domain\car\Car.class
 com\fruit\domain\share\ShareType.class
+com\fruit\domain\car\Order.class
 com\fruit\domain\share\ShareCollect.class
 com\fruit\domain\share\ShareDetail.class
+com\fruit\domain\car\CarInfo.class
+com\fruit\domain\user\User.class
 com\fruit\domain\share\ShareLetter.class

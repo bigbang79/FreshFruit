@@ -6,6 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Fresh_CarController" />
+        <module name="Fresh_CarService" />
+        <module name="Fresh_CarServiceProvider" />
         <module name="Fresh_Common" />
         <module name="Fresh_Domain" />
         <module name="Fresh_Mapper" />
@@ -20,9 +23,5 @@
         <module name="Fresh_WebController" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Fresh_Domain" target="1.8" />
-      <module name="Fresh_Web" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

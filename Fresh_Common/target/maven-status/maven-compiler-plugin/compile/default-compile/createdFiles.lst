@@ -1,5 +1,4 @@
 com\fruit\common\email\EmailUtils.class
-com\fruit\common\util\FDFSUtil.class
 com\fruit\common\util\DateUtil.class
 com\fruit\common\util\IdGenerator.class
 com\fruit\common\util\LoginUtil.class
