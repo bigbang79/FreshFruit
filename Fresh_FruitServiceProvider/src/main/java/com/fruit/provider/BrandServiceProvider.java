@@ -10,8 +10,8 @@ import com.fruit.mapper.fruit.BrandMapper;
 import com.fruit.domain.fruit.Brand;
 import com.fruit.service.BrandService;
 
-@Service
-public class BrandServiceImpl implements BrandService {
+@Service("brandServiceProvider")
+public class BrandServiceProvider implements BrandService {
     
     @Autowired
     private BrandMapper brandMapper;

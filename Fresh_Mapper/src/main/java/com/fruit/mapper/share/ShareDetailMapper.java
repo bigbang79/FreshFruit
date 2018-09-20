@@ -9,7 +9,7 @@ public interface ShareDetailMapper {
 
     int insertSelective(ShareDetail record);
 
-    ShareDetail selectByPrimaryKey(Integer id);
+    ShareDetail selectBySid(Integer sid);
 
     int updateByPrimaryKeySelective(ShareDetail record);
 

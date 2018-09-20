@@ -19,7 +19,7 @@ import com.fruit.domain.fruit.ItemInfo;
 import com.fruit.domain.fruit.Repertory;
 import com.fruit.service.ItemService;
 
-@Service
+@Service("itemServiceImpl")
 public class ItemServiceImpl implements ItemService{
     
     @Autowired

@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Fresh_Common" />
         <module name="Fresh_Domain" />
+        <module name="Fresh_FastDFSController" />
         <module name="Fresh_FruitController" />
         <module name="Fresh_FruitService" />
         <module name="Fresh_FruitServiceProvider" />

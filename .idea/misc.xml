@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/Fresh_FastDFSController" />
     <file type="web" url="file://$PROJECT_DIR$/Fresh_FruitServiceProvider" />
+    <file type="web" url="file://$PROJECT_DIR$/Fresh_ShareController" />
+    <file type="web" url="file://$PROJECT_DIR$/Fresh_ShareServcieProvider" />
     <file type="web" url="file://$PROJECT_DIR$/Fresh_SSOController" />
     <file type="web" url="file://$PROJECT_DIR$/Fresh_SSOServiceProvider" />
     <file type="web" url="file://$PROJECT_DIR$/Fresh_UserServiceProvider" />

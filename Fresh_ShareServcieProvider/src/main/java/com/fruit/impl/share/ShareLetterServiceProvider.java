@@ -21,4 +21,7 @@ public class ShareLetterServiceProvider implements ShareLetterService {
     public R delete(int id) {
         return ResultUtil.createResult(mapper.deleteByPrimaryKey(id));
     }
+    public R qureyByUid(int uid,int uuid){
+        return new R(1,"和谁聊天",mapper.selectByUid(uid,uuid));
+    }
 }

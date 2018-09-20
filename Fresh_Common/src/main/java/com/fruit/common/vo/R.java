@@ -1,5 +1,6 @@
 package com.fruit.common.vo;
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
@@ -7,7 +8,7 @@ import java.util.List;
  * @author ZhuWenFeng
  * @param <T>
  */
-public class R<T> {
+public class R<T> implements Serializable {
 
     private int code;
     

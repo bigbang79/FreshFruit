@@ -17,13 +17,13 @@
   <sql id="Blob_Column_List" >
     detail
   </sql>
-  <select id="selectByPrimaryKey" resultMap="ResultMapWithBLOBs" parameterType="java.lang.Integer" >
+  <select id="selectBySid" resultMap="ResultMapWithBLOBs" parameterType="java.lang.Integer" >
     select 
     <include refid="Base_Column_List" />
     ,
     <include refid="Blob_Column_List" />
     from t_sharedetail
-    where id = #{id,jdbcType=INTEGER}
+    where sid = #{sid,jdbcType=INTEGER}
   </select>
   <delete id="deleteBySid" parameterType="java.lang.Integer" >
     delete from t_sharedetail

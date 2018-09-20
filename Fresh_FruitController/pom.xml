@@ -51,7 +51,7 @@
                 <version>2.2</version>
                 <configuration>
                     <path>/</path>
-                    <port>8081</port>
+                    <port>8095</port>
                     <server>tomcat7</server>
                 </configuration>
             </plugin>

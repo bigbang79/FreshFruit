@@ -24,6 +24,7 @@
         <module>Fresh_FruitService</module>
         <module>Fresh_FruitServiceProvider</module>
         <module>Fresh_FruitController</module>
+        <module>Fresh_FastDFSController</module>
     </modules>
 
 

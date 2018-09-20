@@ -7,7 +7,7 @@ import java.util.List;
 
 public interface ShareDetailService {
     R save(ShareDetail shareDetail);
-    R queryById(int id);
+    R queryBySid(int sid);
     R update(ShareDetail shareDetail);
     R delete(int sid);
 }
