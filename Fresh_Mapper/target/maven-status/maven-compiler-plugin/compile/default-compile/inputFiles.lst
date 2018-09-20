@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:\classrep\Fresh\Fresh_Mapper\src\main\java\com\fruit\mapper\fruit\ItemInfoMapper.java
 D:\classrep\Fresh\Fresh_Mapper\src\main\java\com\fruit\mapper\share\ShareCollectMapper.java
 D:\classrep\Fresh\Fresh_Mapper\src\main\java\com\fruit\mapper\fruit\RepertoryMapper.java
@@ -13,3 +14,16 @@ D:\classrep\Fresh\Fresh_Mapper\src\main\java\com\fruit\mapper\fruit\BrandMapper.
 D:\classrep\Fresh\Fresh_Mapper\src\main\java\com\fruit\mapper\share\ShareMapper.java
 D:\classrep\Fresh\Fresh_Mapper\src\main\java\com\fruit\mapper\share\ShareImagesMapper.java
 D:\classrep\Fresh\Fresh_Mapper\src\main\java\com\fruit\mapper\fruit\ItemImageMapper.java
+=======
+D:\ideaSpace\FreshFruit\Fresh_Mapper\src\main\java\com\fruit\mapper\share\ShareCollectMapper.java
+D:\ideaSpace\FreshFruit\Fresh_Mapper\src\main\java\com\fruit\mapper\share\ShareImagesMapper.java
+D:\ideaSpace\FreshFruit\Fresh_Mapper\src\main\java\com\fruit\mapper\share\ShareTypeMapper.java
+D:\ideaSpace\FreshFruit\Fresh_Mapper\src\main\java\com\fruit\mapper\share\ShareLetterMapper.java
+D:\ideaSpace\FreshFruit\Fresh_Mapper\src\main\java\com\fruit\mapper\car\CarInfoMapper.java
+D:\ideaSpace\FreshFruit\Fresh_Mapper\src\main\java\com\fruit\mapper\share\ShareDetailMapper.java
+D:\ideaSpace\FreshFruit\Fresh_Mapper\src\main\java\com\fruit\mapper\car\OrderInfoMapper.java
+D:\ideaSpace\FreshFruit\Fresh_Mapper\src\main\java\com\fruit\mapper\share\ShareCommentMapper.java
+D:\ideaSpace\FreshFruit\Fresh_Mapper\src\main\java\com\fruit\mapper\share\ShareMapper.java
+D:\ideaSpace\FreshFruit\Fresh_Mapper\src\main\java\com\fruit\mapper\car\OrderMapper.java
+D:\ideaSpace\FreshFruit\Fresh_Mapper\src\main\java\com\fruit\mapper\car\CarMapper.java
+>>>>>>> 679c0a9da98e2f7f098e4502163ac9f5c4ae8e2c

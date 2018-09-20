@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 com\fruit\domain\fruit\Place.class
 com\fruit\domain\share\Share.class
 com\fruit\domain\share\ShareType.class
@@ -13,3 +14,17 @@ com\fruit\domain\share\ShareCollect.class
 com\fruit\domain\share\ShareDetail.class
 com\fruit\domain\fruit\ItemInfo.class
 com\fruit\domain\fruit\UserItem.class
+=======
+com\fruit\domain\share\ShareComment.class
+com\fruit\domain\car\OrderInfo.class
+com\fruit\domain\share\Share.class
+com\fruit\domain\share\ShareImages.class
+com\fruit\domain\car\Car.class
+com\fruit\domain\share\ShareType.class
+com\fruit\domain\car\Order.class
+com\fruit\domain\share\ShareCollect.class
+com\fruit\domain\share\ShareDetail.class
+com\fruit\domain\car\CarInfo.class
+com\fruit\domain\user\User.class
+com\fruit\domain\share\ShareLetter.class
+>>>>>>> 679c0a9da98e2f7f098e4502163ac9f5c4ae8e2c

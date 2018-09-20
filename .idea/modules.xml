@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/Fresh_Domain/Fresh_Domain.iml" filepath="$PROJECT_DIR$/Fresh_Domain/Fresh_Domain.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Fresh__WebController/Fresh__WebController.iml" filepath="$PROJECT_DIR$/Fresh__WebController/Fresh__WebController.iml" />
-    </modules>
-  </component>
-</project>

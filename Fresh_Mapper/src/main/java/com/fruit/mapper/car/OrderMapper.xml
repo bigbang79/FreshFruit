@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.fruit.mapper.car.OrderMapper" >
+  <resultMap id="BaseResultMap" type="com.fruit.domain.car.Order" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="uid" property="uid" jdbcType="INTEGER" />
+    <result column="money" property="money" jdbcType="INTEGER" />
+    <result column="reid" property="reid" jdbcType="INTEGER" />
+    <result column="msg" property="msg" jdbcType="VARCHAR" />
+    <result column="createtime" property="createtime" jdbcType="TIMESTAMP" />
+    <result column="state" property="state" jdbcType="INTEGER" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, uid, money, reid, msg, createtime, state
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from t_order
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from t_order
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.fruit.domain.car.Order" >
+    <selectKey resultType="java.lang.Integer" keyProperty="id" order="AFTER" >
+      SELECT LAST_INSERT_ID()
+    </selectKey>
+    insert into t_order (uid, money, reid, 
+      msg, createtime, state
+      )
+    values (#{uid,jdbcType=INTEGER}, #{money,jdbcType=INTEGER}, #{reid,jdbcType=INTEGER}, 
+      #{msg,jdbcType=VARCHAR}, #{createtime,jdbcType=TIMESTAMP}, #{state,jdbcType=INTEGER}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.fruit.domain.car.Order" >
+    <selectKey resultType="java.lang.Integer" keyProperty="id" order="AFTER" >
+      SELECT LAST_INSERT_ID()
+    </selectKey>
+    insert into t_order
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="uid != null" >
+        uid,
+      </if>
+      <if test="money != null" >
+        money,
+      </if>
+      <if test="reid != null" >
+        reid,
+      </if>
+      <if test="msg != null" >
+        msg,
+      </if>
+      <if test="createtime != null" >
+        createtime,
+      </if>
+      <if test="state != null" >
+        state,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="uid != null" >
+        #{uid,jdbcType=INTEGER},
+      </if>
+      <if test="money != null" >
+        #{money,jdbcType=INTEGER},
+      </if>
+      <if test="reid != null" >
+        #{reid,jdbcType=INTEGER},
+      </if>
+      <if test="msg != null" >
+        #{msg,jdbcType=VARCHAR},
+      </if>
+      <if test="createtime != null" >
+        #{createtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="state != null" >
+        #{state,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.fruit.domain.car.Order" >
+    update t_order
+    <set >
+      <if test="uid != null" >
+        uid = #{uid,jdbcType=INTEGER},
+      </if>
+      <if test="money != null" >
+        money = #{money,jdbcType=INTEGER},
+      </if>
+      <if test="reid != null" >
+        reid = #{reid,jdbcType=INTEGER},
+      </if>
+      <if test="msg != null" >
+        msg = #{msg,jdbcType=VARCHAR},
+      </if>
+      <if test="createtime != null" >
+        createtime = #{createtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="state != null" >
+        state = #{state,jdbcType=INTEGER},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.fruit.domain.car.Order" >
+    update t_order
+    set uid = #{uid,jdbcType=INTEGER},
+      money = #{money,jdbcType=INTEGER},
+      reid = #{reid,jdbcType=INTEGER},
+      msg = #{msg,jdbcType=VARCHAR},
+      createtime = #{createtime,jdbcType=TIMESTAMP},
+      state = #{state,jdbcType=INTEGER}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>

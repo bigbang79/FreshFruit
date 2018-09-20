@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:\classrep\Fresh\Fresh_Domain\src\main\java\com\fruit\domain\fruit\ItemInfo.java
 D:\classrep\Fresh\Fresh_Domain\src\main\java\com\fruit\domain\share\Share.java
 D:\classrep\Fresh\Fresh_Domain\src\main\java\com\fruit\domain\share\ShareDetail.java
@@ -13,3 +14,16 @@ D:\classrep\Fresh\Fresh_Domain\src\main\java\com\fruit\domain\share\ShareComment
 D:\classrep\Fresh\Fresh_Domain\src\main\java\com\fruit\domain\fruit\Category.java
 D:\classrep\Fresh\Fresh_Domain\src\main\java\com\fruit\domain\share\ShareLetter.java
 D:\classrep\Fresh\Fresh_Domain\src\main\java\com\fruit\domain\fruit\Place.java
+=======
+D:\ideaSpace\FreshFruit\Fresh_Domain\src\main\java\com\fruit\domain\car\CarInfo.java
+D:\ideaSpace\FreshFruit\Fresh_Domain\src\main\java\com\fruit\domain\car\Order.java
+D:\ideaSpace\FreshFruit\Fresh_Domain\src\main\java\com\fruit\domain\share\ShareType.java
+D:\ideaSpace\FreshFruit\Fresh_Domain\src\main\java\com\fruit\domain\share\ShareCollect.java
+D:\ideaSpace\FreshFruit\Fresh_Domain\src\main\java\com\fruit\domain\car\OrderInfo.java
+D:\ideaSpace\FreshFruit\Fresh_Domain\src\main\java\com\fruit\domain\share\ShareComment.java
+D:\ideaSpace\FreshFruit\Fresh_Domain\src\main\java\com\fruit\domain\car\Car.java
+D:\ideaSpace\FreshFruit\Fresh_Domain\src\main\java\com\fruit\domain\share\Share.java
+D:\ideaSpace\FreshFruit\Fresh_Domain\src\main\java\com\fruit\domain\share\ShareLetter.java
+D:\ideaSpace\FreshFruit\Fresh_Domain\src\main\java\com\fruit\domain\share\ShareImages.java
+D:\ideaSpace\FreshFruit\Fresh_Domain\src\main\java\com\fruit\domain\share\ShareDetail.java
+>>>>>>> 679c0a9da98e2f7f098e4502163ac9f5c4ae8e2c

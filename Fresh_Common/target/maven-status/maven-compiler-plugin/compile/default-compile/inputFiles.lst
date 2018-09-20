@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:\classrep\Fresh\Fresh_Common\src\main\java\com\fruit\common\email\EmailUtils.java
 D:\classrep\Fresh\Fresh_Common\src\main\java\com\fruit\common\util\OSSUtil.java
 D:\classrep\Fresh\Fresh_Common\src\main\java\com\fruit\common\util\SpringContextUtils.java
@@ -25,3 +26,23 @@ D:\classrep\Fresh\Fresh_Common\src\main\java\com\fruit\common\util\FDFSUtil.java
 D:\classrep\Fresh\Fresh_Common\src\main\java\com\fruit\common\util\EncrypUtil.java
 D:\classrep\Fresh\Fresh_Common\src\main\java\com\fruit\common\util\LoginUtil.java
 D:\classrep\Fresh\Fresh_Common\src\main\java\com\fruit\common\util\Base64Utils.java
+=======
+D:\ideaSpace\FreshFruit\Fresh_Common\src\main\java\com\fruit\common\redis\JedisUtil.java
+D:\ideaSpace\FreshFruit\Fresh_Common\src\main\java\com\fruit\common\util\IdGenerator.java
+D:\ideaSpace\FreshFruit\Fresh_Common\src\main\java\com\fruit\common\util\HttpUtils.java
+D:\ideaSpace\FreshFruit\Fresh_Common\src\main\java\com\fruit\common\util\EncrypUtil.java
+D:\ideaSpace\FreshFruit\Fresh_Common\src\main\java\com\fruit\common\cros\CROSFilter.java
+D:\ideaSpace\FreshFruit\Fresh_Common\src\main\java\com\fruit\common\util\OSSUtil.java
+D:\ideaSpace\FreshFruit\Fresh_Common\src\main\java\com\fruit\common\util\SpringContextUtils.java
+D:\ideaSpace\FreshFruit\Fresh_Common\src\main\java\com\fruit\common\email\EmailUtils.java
+D:\ideaSpace\FreshFruit\Fresh_Common\src\main\java\com\fruit\common\util\ExcelUtils.java
+D:\ideaSpace\FreshFruit\Fresh_Common\src\main\java\com\fruit\common\util\Base64Utils.java
+D:\ideaSpace\FreshFruit\Fresh_Common\src\main\java\com\fruit\common\util\FileUtils.java
+D:\ideaSpace\FreshFruit\Fresh_Common\src\main\java\com\fruit\common\result\R.java
+D:\ideaSpace\FreshFruit\Fresh_Common\src\main\java\com\fruit\common\email\EmailMsg.java
+D:\ideaSpace\FreshFruit\Fresh_Common\src\main\java\com\fruit\common\util\LoginUtil.java
+D:\ideaSpace\FreshFruit\Fresh_Common\src\main\java\com\fruit\common\util\ResultUtil.java
+D:\ideaSpace\FreshFruit\Fresh_Common\src\main\java\com\fruit\common\util\CookieUtil.java
+D:\ideaSpace\FreshFruit\Fresh_Common\src\main\java\com\fruit\common\util\DateUtil.java
+D:\ideaSpace\FreshFruit\Fresh_Common\src\main\java\com\fruit\common\util\IPUtils.java
+>>>>>>> 679c0a9da98e2f7f098e4502163ac9f5c4ae8e2c

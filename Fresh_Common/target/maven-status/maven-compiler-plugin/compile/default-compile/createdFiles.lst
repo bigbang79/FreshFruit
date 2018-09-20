@@ -1,6 +1,9 @@
 com\fruit\common\email\EmailUtils.class
+<<<<<<< HEAD
 com\fruit\common\vo\R.class
 com\fruit\common\util\MailUtils$1.class
+=======
+>>>>>>> 679c0a9da98e2f7f098e4502163ac9f5c4ae8e2c
 com\fruit\common\util\DateUtil.class
 com\fruit\common\util\LoginUtil.class
 com\fruit\common\result\R.class

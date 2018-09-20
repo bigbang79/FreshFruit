@@ -46,7 +46,8 @@ public class R implements Serializable {
     }
     public static R setOK(){
         return new R(1,"OK");
-    }public static R setError(){
+    }
+    public static R setError(){
         return new R(2,"error");
     }
 }
