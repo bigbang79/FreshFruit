@@ -40,7 +40,7 @@
                 <version>2.2</version>
                 <configuration>
                     <path>/</path>
-                    <port>8088</port>
+                    <port>8087</port>
                     <server>tomcat7</server>
                 </configuration>
             </plugin>

@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
 
+    <dubbo:application name="carconsummer"></dubbo:application>
+    <dubbo:registry address="47.98.186.179:2181" protocol="zookeeper" check="false"></dubbo:registry>
+    <dubbo:protocol name="dubbo" port="20881"></dubbo:protocol>
+
+    <dubbo:reference interface="com.fruit.service.car.CarService" id="carService" retries="0"></dubbo:reference>
 </beans>

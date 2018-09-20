@@ -35,12 +35,11 @@ public class CarProvider implements CarService {
 
     @Override
     public R carClear(Integer uid) {
-
         Integer cid = cMapper.selectCid(uid);
         if (null != cid && cid > 0) {
-           if ( mapper.deleteByCid(cid) > 0) {
-               return R.setOK();
-           }
+            if ( mapper.deleteByCid(cid) > 0) {
+                return R.setOK();
+            }
         }
         return R.setError();
     }
@@ -56,4 +55,6 @@ public class CarProvider implements CarService {
         }
         return R.setError();
     }
+
+
 }

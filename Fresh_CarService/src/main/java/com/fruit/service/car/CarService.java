@@ -7,7 +7,7 @@ import com.fruit.domain.car.CarInfo;
 public interface CarService {
    R carInfoAdd (CarInfo record,Integer uid);
 
-   R carClear(Integer cid);
+   R carClear(Integer uid);
 
    R carInfoUpdate(Integer id,Integer count,Integer flag);
 }

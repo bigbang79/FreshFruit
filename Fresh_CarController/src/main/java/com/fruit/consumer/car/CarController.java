@@ -24,4 +24,27 @@ public class CarController {
        User user = JSON.parseObject(token, User.class);
        return service.carInfoAdd(carInfo, user.getId());
     }
+
+    @RequestMapping("carInfoUpdate.do")
+    public R carInfoUpdate(HttpServletRequest req) {
+        String token = CookieUtil.getCk(req,"user" );
+        User user = JSON.parseObject(token, User.class);
+        return service.carClear(user.getId());
+    }
+
+    @RequestMapping("carInfoClear.do")
+    public R carInfoClear(HttpServletRequest req) {
+        String token = CookieUtil.getCk(req,"user" );
+        User user = JSON.parseObject(token, User.class);
+        return service.carClear(user.getId());
+    }
+
+    @RequestMapping("test.do")
+    public R test() {
+        User user = new User();
+        user.setId(2);
+        return new R(1,"OK" ,user );
+    }
+
+
 }

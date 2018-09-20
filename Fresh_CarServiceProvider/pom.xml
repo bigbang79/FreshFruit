@@ -32,7 +32,7 @@
                 <version>2.2</version>
                 <configuration>
                     <path>/</path>
-                    <port>8087</port>
+                    <port>1087</port>
                     <server>tomcat</server>
                 </configuration>
             </plugin>
