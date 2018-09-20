@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.fruit.mapper.fruit.UserItemMapper">
+	<resultMap id="BaseResultMap" type="com.fruit.domain.fruit.UserItem">
+	    <id column="user_item_id" property="userItemId" jdbcType="INTEGER" />
+	    <result column="user_id" property="userId" jdbcType="INTEGER" />
+	    <result column="item_id" property="itemId" jdbcType="INTEGER" />
+	    <result column="user_star" property="userStar" jdbcType="INTEGER" />
+	    <result column="isreply" property="isreply" jdbcType="INTEGER" />
+	    <result column="islike" property="islike" jdbcType="INTEGER" />
+	    <result column="iscollect" property="iscollect" jdbcType="INTEGER" />
+	    <result column="isshare" property="isshare" jdbcType="INTEGER" />
+	    <result column="isbuy" property="isbuy" jdbcType="INTEGER" />
+	    <result column="state" property="state" jdbcType="INTEGER" />
+	</resultMap>
+	
+	<sql id="Base_Column_List">
+		user_item_id, user_id, item_id, user_star, isreply, islike, iscollect, isshare,
+		isbuy, state
+	</sql>
+	
+	<!-- 新增User-Item关系 -->
+    <insert id="insertUserItem" parameterType="com.fruit.domain.fruit.UserItem">
+        insert into t_user_item (user_item_id, user_id, item_id,
+        user_star, isreply, islike, iscollect, isshare, isbuy)
+        values (#{userItemId}, #{userId}, #{itemId},
+        #{userStar}, #{isreply}, #{islike}, #{iscollect}, #{isshare}, #{isbuy})
+    </insert>	
+    
+    <!-- 修改User-Item关系 -->
+    <update id="updateUserItem"
+        parameterType="com.fruit.domain.fruit.UserItem">
+        update t_user_item
+        <set>
+            <if test="userStar != null">
+                user_star = #{userStar},
+            </if>
+            <if test="isreply != null">
+                isreply = #{isreply},
+            </if>
+            <if test="islike != null">
+                islike = #{islike},
+            </if>
+            <if test="iscollect != null">
+                iscollect = #{iscollect},
+            </if>
+            <if test="isshare != null">
+                isshare = #{isshare},
+            </if>
+            <if test="isbuy != null">
+                isbuy = #{isbuy},
+            </if>
+        </set>
+        where user_item_id = #{userItemId}
+    </update>
+	
+	<!-- 查询商品同用户的各种关系 -->
+    <select id="countUserItemByCondition" resultType="java.lang.Integer" parameterType="com.fruit.domain.fruit.UserItem">
+        select count(*) from t_user_item
+        <where>
+            <if test="isreply != null and isreply == 1">
+                isreply = 1
+            </if>
+            <if test="islike != null and islike == 1">
+                and islike = 1
+            </if>
+            <if test="iscollect != null and iscollect == 1">
+                and iscollect = 1
+            </if>
+            <if test="isshare != null and isshare == 1">
+                and isshare = 1
+            </if>
+            <if test="isbuy != null and isbuy == 1">
+                and isbuy = 1
+            </if>
+        </where>
+        and item_id = #{itemId}
+    </select>	
+	
+	<!-- 用户查询【我的收藏】【我的购买】【我的评论】【我的分享】等 -->
+    <select id="listUserItemByUserId" resultMap="BaseResultMap" parameterType="com.fruit.domain.fruit.UserItem">
+        select <include refid="Base_Column_List" /> from t_user_item
+        <where>
+            <if test="isreply != null and isreply == 1">
+                isreply = 1
+            </if>
+            <if test="islike != null and islike == 1">
+                and islike = 1
+            </if>
+            <if test="iscollect != null and iscollect == 1">
+                and iscollect = 1
+            </if>
+            <if test="isshare != null and isshare == 1">
+                and isshare = 1
+            </if>
+            <if test="isbuy != null and isbuy == 1">
+                and isbuy = 1
+            </if>
+        </where>
+        and user_id = #{userId}
+    </select>	
+    
+    <!-- 查询商品总星数（所有用户给的星） -->
+    <select id="countItemTotalStar" resultType="java.lang.Integer" parameterType="java.lang.Integer">
+        select sum(user_star) from t_user_item where item_id = #{itemId}
+    </select>	
+    
+    <!-- 修改User-Item关系表state -->
+    <update id="updateUserItemState" parameterType="com.fruit.domain.fruit.UserItem">
+        update t_user_item set state = #{state} where user_item_id = #{userItemId}
+    </update>
+	
+</mapper>

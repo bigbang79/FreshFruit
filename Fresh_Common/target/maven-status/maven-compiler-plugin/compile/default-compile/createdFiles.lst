@@ -1,24 +1,43 @@
 com\fruit\common\email\EmailUtils.class
+<<<<<<< HEAD
 com\fruit\common\vo\R.class
 com\fruit\common\util\FDFSUtil.class
+=======
+<<<<<<< HEAD
+com\fruit\common\vo\R.class
+com\fruit\common\util\MailUtils$1.class
+=======
+>>>>>>> 679c0a9da98e2f7f098e4502163ac9f5c4ae8e2c
+>>>>>>> 4d190be8d39e1891e41d502a15a34637b7106ca5
 com\fruit\common\util\DateUtil.class
-com\fruit\common\util\IdGenerator.class
 com\fruit\common\util\LoginUtil.class
+com\fruit\common\result\R.class
+com\fruit\common\util\IPUtils.class
+com\fruit\common\jedis\JedisClientCluster.class
+com\fruit\common\util\OSSUtil.class
+com\fruit\common\util\MailUtils.class
+com\fruit\common\redis\JedisUtil.class
+com\fruit\common\jedis\JedisClientPool.class
+com\fruit\common\jedis\JedisClient.class
+com\fruit\common\util\FDFSUtil.class
+com\fruit\common\util\IdGenerator.class
 com\fruit\common\util\FileUtils.class
 com\fruit\common\result\PageVo.class
 com\fruit\common\util\ExcelUtils.class
 com\fruit\common\util\ResultUtil.class
 com\fruit\common\redis\JedisUtil$1.class
-com\fruit\common\result\R.class
 com\fruit\common\util\EncrypUtil.class
 com\fruit\common\util\CookieUtil.class
-com\fruit\common\util\IPUtils.class
 com\fruit\common\util\SpringContextUtils.class
 com\fruit\common\email\EmailMsg.class
 com\fruit\common\util\JsonUtils.class
+<<<<<<< HEAD
 com\fruit\common\util\OSSUtil.class
 com\fruit\common\cros\CROSFilter.class
 com\fruit\common\redis\JedisUtil.class
+=======
+com\fruit\common\cros\CROSFilter.class
+>>>>>>> 4d190be8d39e1891e41d502a15a34637b7106ca5
 com\fruit\common\util\RandomUtils.class
 com\fruit\common\util\Base64Utils.class
 com\fruit\common\util\HttpUtils.class

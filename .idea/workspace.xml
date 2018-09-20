@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="7958b453-2d53-42e7-93ef-9438b3bb125b" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/Fresh_Web/target/" />
+    <ignored path="$PROJECT_DIR$/Fresh_Domain/target/" />
+    <ignored path="$PROJECT_DIR$/FreshUserService/target/" />
+    <ignored path="$PROJECT_DIR$/Fresh_Mapper/target/" />
+    <ignored path="$PROJECT_DIR$/Fresh_Common/target/" />
+=======
     <list default="true" id="8f817cfc-41c6-41da-816e-30cb2ef9912a" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/result/PageVo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/util/JsonUtils.java" afterDir="false" />
@@ -12,6 +22,7 @@
       <change beforePath="$PROJECT_DIR$/Fresh_Common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_Common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Fresh_ShareService/target/" />
+>>>>>>> 679c0a9da98e2f7f098e4502163ac9f5c4ae8e2c
     <ignored path="$PROJECT_DIR$/Fresh_UserService/target/" />
     <ignored path="$PROJECT_DIR$/Fresh_Domain/target/" />
     <ignored path="$PROJECT_DIR$/Fresh_SSOController/target/" />
@@ -24,11 +35,21 @@
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Fresh_SSOServiceProvider/target/" />
     <ignored path="$PROJECT_DIR$/Fresh_ShareController/target/" />
+<<<<<<< HEAD
+    <ignored path="$PROJECT_DIR$/Fresh_FruitServiceProvider/target/" />
+    <ignored path="$PROJECT_DIR$/Fresh_FruitService/target/" />
+    <ignored path="$PROJECT_DIR$/Fresh_FruitController/target/" />
+    <ignored path="$PROJECT_DIR$/Fresh_FastDFSController/target/" />
+=======
     <ignored path="$PROJECT_DIR$/Fresh_Car/target/" />
     <ignored path="$PROJECT_DIR$/Fresh_CarService/target/" />
     <ignored path="$PROJECT_DIR$/Fresh_CarServiceProvider/target/" />
     <ignored path="$PROJECT_DIR$/Fresh_CarController/target/" />
+<<<<<<< HEAD
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
+=======
+>>>>>>> 679c0a9da98e2f7f098e4502163ac9f5c4ae8e2c
+>>>>>>> 4d190be8d39e1891e41d502a15a34637b7106ca5
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +59,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file leaf-file-name="CarController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fresh_CarController/src/main/java/com/fruit/consumer/car/CarController.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -46,12 +68,49 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+=======
+<<<<<<< HEAD
+      <file leaf-file-name="ShareCollectController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fresh_ShareController/src/main/java/com/fruit/controller/share/ShareCollectController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#722#723#0" expanded="true" />
+                <element signature="e#763#764#0" expanded="true" />
+              </folding>
+=======
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+>>>>>>> 679c0a9da98e2f7f098e4502163ac9f5c4ae8e2c
+>>>>>>> 4d190be8d39e1891e41d502a15a34637b7106ca5
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fresh_CarController/src/main/webapp/WEB-INF/web.xml">
+=======
+<<<<<<< HEAD
+      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fresh_ShareController/src/main/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="spring-dubboconsumer.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fresh_ShareController/src/main/resources/spring-dubboconsumer.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+=======
+      <file leaf-file-name="CarController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Fresh_CarController/src/main/java/com/fruit/consumer/car/CarController.java">
+>>>>>>> 4d190be8d39e1891e41d502a15a34637b7106ca5
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="621">
               <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
@@ -72,20 +131,52 @@
         <entry file="file://$PROJECT_DIR$/Fresh_CarServiceProvider/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
+<<<<<<< HEAD
               <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+=======
+              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+              <folding>
+                <element signature="e#121#122#0" expanded="true" />
+                <element signature="e#158#159#0" expanded="true" />
+                <element signature="e#186#187#0" expanded="true" />
+              </folding>
+>>>>>>> 679c0a9da98e2f7f098e4502163ac9f5c4ae8e2c
+>>>>>>> 4d190be8d39e1891e41d502a15a34637b7106ca5
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="R.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/vo/R.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="111">
               <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+=======
+<<<<<<< HEAD
+      <file leaf-file-name="Fresh__WebController.iml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Fresh__WebController/Fresh__WebController.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="spring-dubboprovider.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fresh_ShareServcieProvider/src/main/resources/spring-dubboprovider.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="42" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="42" />
+=======
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fresh_Common/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="729">
+              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+>>>>>>> 679c0a9da98e2f7f098e4502163ac9f5c4ae8e2c
+>>>>>>> 4d190be8d39e1891e41d502a15a34637b7106ca5
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="spring-dubboprovider.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fresh_CarServiceProvider/src/main/resources/spring-dubboprovider.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -100,13 +191,55 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
               <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+=======
+<<<<<<< HEAD
+      <file leaf-file-name="springmvc.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fresh_ShareController/src/main/resources/springmvc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+>>>>>>> 4d190be8d39e1891e41d502a15a34637b7106ca5
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fresh_FruitController/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="379">
+              <caret line="53" column="30" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fresh_ShareController/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fresh_ShareServcieProvider/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="21" column="36" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fresh_FruitServiceProvider/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+=======
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fresh_CarController/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="513">
               <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
             </state>
@@ -121,6 +254,11 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+=======
+            <state relative-caret-position="837">
+              <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+>>>>>>> 679c0a9da98e2f7f098e4502163ac9f5c4ae8e2c
+>>>>>>> 4d190be8d39e1891e41d502a15a34637b7106ca5
             </state>
           </provider>
         </entry>
@@ -131,6 +269,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        <option value="spring-beans.schema" />
+>>>>>>> 679c0a9da98e2f7f098e4502163ac9f5c4ae8e2c
+>>>>>>> 4d190be8d39e1891e41d502a15a34637b7106ca5
         <option value="Class" />
         <option value="spring-beans.schema" />
       </list>
@@ -138,6 +283,17 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+<<<<<<< HEAD
+      <find>choshim.mapper</find>
+      <find>choshim.pojo</find>
+      <find>choshim</find>
+      <find>brandServiceImpl</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>fruit.mapper.fruit</replace>
+      <replace>fruit.domain.fruit</replace>
+      <replace>fruit</replace>
+=======
       <find>shiro</find>
       <find>com.fruit.domain.car</find>
       <find>domain.car.Car.Car.Car</find>
@@ -154,6 +310,7 @@
       <replace>domain.car.CarInfo</replace>
       <replace>domain.car.Order</replace>
       <replace>domain.car.OrderInfo</replace>
+>>>>>>> 679c0a9da98e2f7f098e4502163ac9f5c4ae8e2c
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -166,6 +323,59 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/util/RandomUtils.java" />
+        <option value="$PROJECT_DIR$/Fresh_FruitServiceProvider/src/main/java/com/fruit/provider/BrandServiceImpl.java" />
+        <option value="$PROJECT_DIR$/Fresh_FruitServiceProvider/src/main/java/com/fruit/provider/CategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/jedis/JedisClient.java" />
+        <option value="$PROJECT_DIR$/Fresh_FruitServiceProvider/src/main/java/com/fruit/provider/PlaceServiceImpl.java" />
+        <option value="$PROJECT_DIR$/Fresh_FruitServiceProvider/src/main/java/com/fruit/provider/RepertoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/Fresh_FruitServiceProvider/src/main/java/com/fruit/provider/UserItemServiceImpl.java" />
+        <option value="$PROJECT_DIR$/Fresh_FruitController/src/main/java/com/fruit/controller/quartz/QuartzController.java" />
+        <option value="$PROJECT_DIR$/Fresh_FruitController/src/main/java/com/fruit/controller/web/BrandController.java" />
+        <option value="$PROJECT_DIR$/Fresh_FruitController/src/main/resources/redisconfig.properties" />
+        <option value="$PROJECT_DIR$/Fresh_FruitController/src/main/resources/spring-dubboconsumer.xml" />
+        <option value="$PROJECT_DIR$/Fresh_FruitController/src/main/resources/springmvc.xml" />
+        <option value="$PROJECT_DIR$/Fresh_FruitController/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/util/CookieUtil.java" />
+        <option value="$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/util/JedisUtils.java" />
+        <option value="$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/vo/R.java" />
+        <option value="$PROJECT_DIR$/Fresh_FruitServiceProvider/src/main/resources/spring-dao.xml" />
+        <option value="$PROJECT_DIR$/Fresh_FruitServiceProvider/pom.xml" />
+        <option value="$PROJECT_DIR$/Fresh_FruitServiceProvider/src/main/resources/dbconfig.properties" />
+        <option value="$PROJECT_DIR$/Fresh_FruitServiceProvider/src/main/java/com/fruit/provider/BrandServiceProvider.java" />
+        <option value="$PROJECT_DIR$/Fresh_FruitServiceProvider/src/main/resources/spring-service.xml" />
+        <option value="$PROJECT_DIR$/Fresh_FruitServiceProvider/src/main/java/com/fruit/provider/ItemServiceImpl.java" />
+        <option value="$PROJECT_DIR$/Fresh_FruitServiceProvider/src/main/resources/spring-redis.xml" />
+        <option value="$PROJECT_DIR$/Fresh_ShareServcieProvider/src/main/resources/spring-service.xml" />
+        <option value="$PROJECT_DIR$/Fresh_ShareServcieProvider/pom.xml" />
+        <option value="$PROJECT_DIR$/Fresh_FruitServiceProvider/src/main/resources/spring-dubboprovider.xml" />
+        <option value="$PROJECT_DIR$/Fresh_ShareServcieProvider/src/main/resources/spring-dubboprovider.xml" />
+        <option value="$PROJECT_DIR$/Fresh_ShareController/pom.xml" />
+        <option value="$PROJECT_DIR$/Fresh_ShareController/src/main/java/com/fruit/controller/share/ShareController.java" />
+        <option value="$PROJECT_DIR$/Fresh_Mapper/src/main/java/com/fruit/mapper/share/ShareDetailMapper.xml" />
+        <option value="$PROJECT_DIR$/Fresh_Mapper/src/main/java/com/fruit/mapper/share/ShareDetailMapper.java" />
+        <option value="$PROJECT_DIR$/Fresh_ShareService/src/main/java/com/fruit/service/share/ShareDetailService.java" />
+        <option value="$PROJECT_DIR$/Fresh_ShareController/src/main/java/com/fruit/controller/share/ShareDetailController.java" />
+        <option value="$PROJECT_DIR$/Fresh_ShareController/src/main/java/com/fruit/controller/share/ShareCollectController.java" />
+        <option value="$PROJECT_DIR$/Fresh_Mapper/src/main/java/com/fruit/mapper/share/ShareLetterMapper.java" />
+        <option value="$PROJECT_DIR$/Fresh_ShareService/src/main/java/com/fruit/service/share/ShareLetterService.java" />
+        <option value="$PROJECT_DIR$/Fresh_ShareServcieProvider/src/main/java/com/fruit/impl/share/ShareLetterServiceProvider.java" />
+        <option value="$PROJECT_DIR$/Fresh_ShareController/src/main/java/com/fruit/controller/share/ShareLetterController.java" />
+        <option value="$PROJECT_DIR$/Fresh_ShareController/src/main/java/com/fruit/controller/share/ShareTypeController.java" />
+        <option value="$PROJECT_DIR$/Fresh_ShareController/src/main/java/com/fruit/controller/share/ShareCommentController.java" />
+        <option value="$PROJECT_DIR$/Fresh_FastDFSController/pom.xml" />
+        <option value="$PROJECT_DIR$/Fresh_FastDFSController/src/main/resources/fdfs_client.conf" />
+        <option value="$PROJECT_DIR$/Fresh_FastDFSController/src/main/resources/springmvc.xml" />
+        <option value="$PROJECT_DIR$/Fresh_FastDFSController/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/Fresh_FastDFSController/src/main/java/com/fruit/fastdfs/FastDfsController.java" />
+        <option value="$PROJECT_DIR$/Fresh_ShareServcieProvider/src/main/java/com/fruit/impl/share/ShareDetailServiceProvider.java" />
+        <option value="$PROJECT_DIR$/Fresh_ShareController/src/main/java/com/fruit/controller/share/ShareImagesController.java" />
+        <option value="$PROJECT_DIR$/Fresh_FruitController/pom.xml" />
+        <option value="$PROJECT_DIR$/Fresh_ShareController/src/main/resources/redisconfig.properties" />
+        <option value="$PROJECT_DIR$/Fresh_ShareController/src/main/resources/springmvc.xml" />
+        <option value="$PROJECT_DIR$/Fresh_ShareController/src/main/resources/spring-dubboconsumer.xml" />
+=======
         <option value="$PROJECT_DIR$/Fresh_Domain/src/main/java/com/fruit/domain/car/CarInfo.java" />
         <option value="$PROJECT_DIR$/Fresh_Mapper/src/main/java/com/fruit/mapper/car/OrderMapper.java" />
         <option value="$PROJECT_DIR$/Fresh_Mapper/src/main/java/com/fruit/mapper/car/OrderMapper.xml" />
@@ -191,6 +401,7 @@
         <option value="$PROJECT_DIR$/Fresh_CarServiceProvider/pom.xml" />
         <option value="$PROJECT_DIR$/Fresh_CarController/pom.xml" />
         <option value="$PROJECT_DIR$/Fresh_Domain/src/main/java/com/fruit/domain/user/User.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Fresh_CarController/src/main/resources/springmvc.xml" />
         <option value="$PROJECT_DIR$/Fresh_CarController/src/main/resources/spring-dubboconsummer.xml" />
         <option value="$PROJECT_DIR$/Fresh_CarService/src/main/java/com/fruit/service/car/CarService.java" />
@@ -200,6 +411,9 @@
         <option value="$PROJECT_DIR$/Fresh_CarController/target/classes/springmvc.xml" />
         <option value="$PROJECT_DIR$/Fresh_CarController/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/Fresh_CarController/src/main/java/com/fruit/consumer/car/CarController.java" />
+=======
+>>>>>>> 679c0a9da98e2f7f098e4502163ac9f5c4ae8e2c
+>>>>>>> 4d190be8d39e1891e41d502a15a34637b7106ca5
       </list>
     </option>
   </component>
@@ -228,19 +442,48 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+<<<<<<< HEAD
+          <item name="Fresh" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Fresh" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Fresh_FruitServiceProvider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+=======
           <item name="Fresh_CarController" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+<<<<<<< HEAD
           <item name="Fresh_CarController" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="Fresh_CarController" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+=======
+          <item name="Fresh_Domain" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+>>>>>>> 679c0a9da98e2f7f098e4502163ac9f5c4ae8e2c
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Fresh_FruitServiceProvider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+<<<<<<< HEAD
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Fresh_FruitServiceProvider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+>>>>>>> 4d190be8d39e1891e41d502a15a34637b7106ca5
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
           <item name="tomcat7" type="36feed69:MavenProjectsStructure$PluginNode" />
         </path>
+=======
+>>>>>>> 679c0a9da98e2f7f098e4502163ac9f5c4ae8e2c
       </expand>
       <select />
     </treeState>
@@ -251,11 +494,26 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="22" />
     <option name="y" value="148" />
     <option name="width" value="1363" />
     <option name="height" value="663" />
+=======
+  <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
+    <option name="x" value="-454" />
+    <option name="y" value="98" />
+    <option name="width" value="1608" />
+    <option name="height" value="980" />
+=======
+    <option name="x" value="133" />
+    <option name="y" value="37" />
+    <option name="width" value="1219" />
+    <option name="height" value="799" />
+>>>>>>> 679c0a9da98e2f7f098e4502163ac9f5c4ae8e2c
+>>>>>>> 4d190be8d39e1891e41d502a15a34637b7106ca5
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -263,12 +521,21 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+=======
+>>>>>>> 679c0a9da98e2f7f098e4502163ac9f5c4ae8e2c
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Fresh" type="b2602c69:ProjectViewProjectNode" />
+<<<<<<< HEAD
+              <item name="Fresh" type="462c0819:PsiDirectoryNode" />
+=======
               <item name="FreshFruit" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 679c0a9da98e2f7f098e4502163ac9f5c4ae8e2c
             </path>
             <path>
               <item name="Fresh" type="b2602c69:ProjectViewProjectNode" />
@@ -353,8 +620,11 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+<<<<<<< HEAD
+=======
       <pane id="Scope" />
       <pane id="AndroidView" />
+>>>>>>> 679c0a9da98e2f7f098e4502163ac9f5c4ae8e2c
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -364,6 +634,25 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Fresh_CarController/src/main/webapp" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+<<<<<<< HEAD
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.fruit.fastdfs" />
+      <recent name="com.fruit.common.result" />
+      <recent name="com.fruit.common.cros" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\classrep\Fresh\Fresh_ShareController\src\main\resources" />
+      <recent name="D:\classrep\Fresh\Fresh_FastDFSController\src\main" />
+      <recent name="D:\classrep\Fresh\Fresh_FastDFSController\src\main\resources" />
+      <recent name="D:\classrep\Fresh\Fresh_FruitServiceProvider\src\main\resources" />
+      <recent name="D:\classrep\Fresh\Fresh_Common\src\main\java\com\fruit\common\util" />
+=======
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -374,6 +663,7 @@
       <recent name="D:\ideaSpace\FreshFruit\Fresh_Common\src\main\java\com\fruit\common\util" />
       <recent name="D:\ideaSpace\FreshFruit\Fresh_Domain\src\main\java\com\fruit\domain\car" />
       <recent name="D:\ideaSpace\FreshFruit\Fresh_Mapper\src\main\java\com\fruit\mapper\car" />
+>>>>>>> 679c0a9da98e2f7f098e4502163ac9f5c4ae8e2c
     </key>
   </component>
   <component name="RestClientSettings">
@@ -546,10 +836,35 @@
       <created>1537318329549</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD
+      <updated>1537187526788</updated>
+      <workItem from="1537187529213" duration="2020000" />
+      <workItem from="1537191214035" duration="1556000" />
+      <workItem from="1537231753334" duration="134000" />
+      <workItem from="1537257828150" duration="1454000" />
+      <workItem from="1537272361456" duration="534000" />
+      <workItem from="1537273066430" duration="599000" />
+      <workItem from="1537274043359" duration="1726000" />
+      <workItem from="1537279135907" duration="70000" />
+      <workItem from="1537281562696" duration="1266000" />
+      <workItem from="1537333652996" duration="7270000" />
+      <workItem from="1537355464410" duration="7639000" />
+      <workItem from="1537364360943" duration="7731000" />
+      <workItem from="1537402796862" duration="16560000" />
+=======
       <updated>1537318329549</updated>
       <workItem from="1537318335252" duration="6917000" />
       <workItem from="1537348754639" duration="15842000" />
+>>>>>>> 679c0a9da98e2f7f098e4502163ac9f5c4ae8e2c
     </task>
+    <task id="LOCAL-00001" summary="第三次">
+      <created>1537367401644</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1537367401644</updated>
+    </task>
+<<<<<<< HEAD
     <task id="LOCAL-00001" summary="完成购物车服务提供者">
       <created>1537446535501</created>
       <option name="number" value="00001" />
@@ -563,12 +878,67 @@
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
       <updated>1537453026036</updated>
+=======
+    <task id="LOCAL-00002" summary="第四次">
+      <created>1537449925343</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1537449925343</updated>
+>>>>>>> 4d190be8d39e1891e41d502a15a34637b7106ca5
     </task>
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="33815000" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="48559000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="12" sideWeight="0.4658177" side_tool="true" visible="true" weight="0.32956153" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.1645796" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3297587" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
+      <window_info anchor="bottom" id="Messages" sideWeight="0.5341823" visible="true" weight="0.32956153" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Java Enterprise" order="9" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5650134" weight="0.32771823" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.3125884" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49865952" weight="0.32956153" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29490617" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="right" id="BPMNPalette" order="5" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+=======
+    <option name="totallyTimeSpent" value="22826000" />
+>>>>>>> 4d190be8d39e1891e41d502a15a34637b7106ca5
   </component>
   <component name="ToolWindowManager">
     <frame x="22" y="398" width="1363" height="413" extended-state="0" />
@@ -623,31 +993,335 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.14861111" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+>>>>>>> 679c0a9da98e2f7f098e4502163ac9f5c4ae8e2c
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+=======
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info id="Designer" order="2" />
+>>>>>>> 679c0a9da98e2f7f098e4502163ac9f5c4ae8e2c
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+<<<<<<< HEAD
     <MESSAGE value="完成购物车服务提供者" />
     <MESSAGE value="完成购物车服务消费者" />
     <option name="LAST_COMMIT_MESSAGE" value="完成购物车服务消费者" />
+=======
+<<<<<<< HEAD
+    <MESSAGE value="第三次" />
+    <MESSAGE value="第四次" />
+    <option name="LAST_COMMIT_MESSAGE" value="第四次" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Fresh_FruitServiceProvider/src/main/java/com/fruit/provider/PlaceServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_FruitServiceProvider/src/main/java/com/fruit/provider/BrandServiceProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_FruitService/src/main/java/com/fruit/service/BrandService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-587">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_FruitServiceProvider/src/main/resources/spring-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_FruitServiceProvider/src/main/java/com/fruit/provider/CategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_FruitServiceProvider/src/main/java/com/fruit/provider/ItemServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_FruitService/src/main/java/com/fruit/service/ItemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_FruitServiceProvider/src/main/resources/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#947#957#0" expanded="true" />
+=======
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+>>>>>>> 4d190be8d39e1891e41d502a15a34637b7106ca5
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/Fresh_Mapper/src/main/java/com/fruit/mapper/car/CarInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_CarServiceProvider/src/main/resources/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_CarServiceProvider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_CarServiceProvider/src/main/java/com/fruit/provider/car/CarProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_Common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_CarController/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_Domain/src/main/java/com/fruit/domain/user/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding>
+            <element signature="e#121#122#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+>>>>>>> 679c0a9da98e2f7f098e4502163ac9f5c4ae8e2c
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/Fresh_FruitController/src/main/resources/spring-dubboconsumer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="65" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_FruitController/src/main/resources/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_ShareServcieProvider/src/main/resources/spring-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_ShareServcieProvider/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_FruitServiceProvider/src/main/resources/spring-redis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_FruitServiceProvider/src/main/resources/spring-dubboprovider.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_Domain/src/main/java/com/fruit/domain/share/ShareDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_Mapper/src/main/java/com/fruit/mapper/share/ShareDetailMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_Mapper/src/main/java/com/fruit/mapper/share/ShareDetailMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_ShareService/src/main/java/com/fruit/service/share/ShareDetailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_ShareServcieProvider/src/main/java/com/fruit/impl/share/ShareCollectServiceProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_Domain/src/main/java/com/fruit/domain/share/ShareLetter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_Mapper/src/main/java/com/fruit/mapper/share/ShareLetterMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_ShareService/src/main/java/com/fruit/service/share/ShareLetterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_ShareServcieProvider/src/main/java/com/fruit/impl/share/ShareLetterServiceProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
+          <folding>
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#856#857#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_ShareController/src/main/java/com/fruit/controller/share/ShareTypeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_ShareController/src/main/java/com/fruit/controller/share/ShareLetterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+          </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/Fresh_CarController/src/main/java/com/fruit/consumer/car/CarController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 4d190be8d39e1891e41d502a15a34637b7106ca5
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1323">
@@ -759,18 +1433,238 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+>>>>>>> 679c0a9da98e2f7f098e4502163ac9f5c4ae8e2c
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/result/R.java">
+    <entry file="file://$PROJECT_DIR$/Fresh_ShareController/src/main/java/com/fruit/controller/share/ShareDetailController.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="391">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#852#853#0" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#969#970#0" expanded="true" />
+            <element signature="e#1011#1012#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_ShareServcieProvider/src/main/java/com/fruit/impl/share/ShareTypeServiceProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_ShareServcieProvider/src/main/java/com/fruit/impl/share/ShareCommentServiceProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_ShareServcieProvider/src/main/java/com/fruit/impl/share/ShareServiceProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+=======
         <state relative-caret-position="378">
           <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/Fresh_CarService/src/main/java/com/fruit/service/car/CarService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+>>>>>>> 679c0a9da98e2f7f098e4502163ac9f5c4ae8e2c
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 4d190be8d39e1891e41d502a15a34637b7106ca5
     <entry file="file://$PROJECT_DIR$/Fresh_Mapper/src/main/java/com/fruit/mapper/car/CarInfoMapper.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="-247">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_FastDFSController/src/main/resources/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_FastDFSController/src/main/resources/fdfs_client.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_FastDFSController/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_FastDFSController/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_FastDFSController/src/main/java/com/fruit/fastdfs/FastDfsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="39" column="38" lean-forward="true" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_ShareServcieProvider/src/main/java/com/fruit/impl/share/ShareDetailServiceProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_ShareServcieProvider/src/main/java/com/fruit/impl/share/ShareImagesServiceProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="33" column="37" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_ShareController/src/main/java/com/fruit/controller/share/ShareImagesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+            <element signature="e#891#892#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_ShareController/src/main/java/com/fruit/controller/share/ShareController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1174#1175#0" expanded="true" />
+            <element signature="e#1227#1228#0" expanded="true" />
+            <element signature="e#1298#1299#0" expanded="true" />
+            <element signature="e#1348#1349#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_ShareController/src/main/java/com/fruit/controller/share/ShareCommentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#953#954#0" expanded="true" />
+            <element signature="e#999#1000#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_ShareController/src/main/java/com/fruit/controller/share/ShareCollectController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_ShareServcieProvider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_FruitServiceProvider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_FruitController/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="53" column="30" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_ShareController/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_ShareController/src/main/resources/redisconfig.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_ShareController/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_ShareController/src/main/resources/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_ShareServcieProvider/src/main/resources/spring-dubboprovider.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_ShareController/src/main/resources/spring-dubboconsumer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh__WebController/Fresh__WebController.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+=======
         <state relative-caret-position="270">
           <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
         </state>
@@ -967,6 +1861,7 @@
           </folding>
         </state>
       </provider>
+>>>>>>> 679c0a9da98e2f7f098e4502163ac9f5c4ae8e2c
     </entry>
     <entry file="file://$PROJECT_DIR$/Fresh_CarController/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">

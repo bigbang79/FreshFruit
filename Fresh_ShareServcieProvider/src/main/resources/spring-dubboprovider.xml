@@ -6,7 +6,11 @@
 http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
     <!--1、应用名称设置-->
+<<<<<<< HEAD
     <dubbo:application name="ssoprovider"></dubbo:application>
+=======
+    <dubbo:application name="shareprovider"></dubbo:application>
+>>>>>>> 4d190be8d39e1891e41d502a15a34637b7106ca5
     <!--2、配置注册中心-->
     <dubbo:registry address="47.98.186.179:2181" protocol="zookeeper" check="false"></dubbo:registry>
     <!--3、设置协议-->

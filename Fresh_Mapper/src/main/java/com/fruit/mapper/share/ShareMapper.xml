@@ -21,13 +21,13 @@
     delete from t_share
     where id = #{id,jdbcType=INTEGER}
   </delete>
-  <insert id="insert" parameterType="com.fruit.domain.share.Share" >
+  <insert id="insert" parameterType="com.fruit.domain.share.Share" useGeneratedKeys="true">
     <selectKey resultType="java.lang.Integer" keyProperty="id" order="AFTER" >
       SELECT LAST_INSERT_ID()
     </selectKey>
-    insert into t_share (share_title, share_id, share_uid, 
+    insert into t_share (share_title,  share_uid,
       share_flag)
-    values (#{shareTitle,jdbcType=VARCHAR}, #{shareId,jdbcType=INTEGER}, #{shareUid,jdbcType=INTEGER}, 
+    values (#{shareTitle,jdbcType=VARCHAR}, #{shareUid,jdbcType=INTEGER},
       #{shareFlag,jdbcType=INTEGER})
   </insert>
   <insert id="insertSelective" parameterType="com.fruit.domain.share.Share" >

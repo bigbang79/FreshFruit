@@ -16,11 +16,11 @@
     from t_shareimages
     where id = #{id,jdbcType=INTEGER}
   </select>
-  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+  <delete id="deleteBySid" parameterType="java.lang.Integer" >
     delete from t_shareimages
-    where id = #{id,jdbcType=INTEGER}
+    where sid = #{sid,jdbcType=INTEGER}
   </delete>
-  <insert id="insert" parameterType="com.fruit.domain.share.ShareImages" >
+  <insert id="insert" parameterType="com.fruit.domain.share.ShareImages" useGeneratedKeys="true">
     <selectKey resultType="java.lang.Integer" keyProperty="id" order="AFTER" >
       SELECT LAST_INSERT_ID()
     </selectKey>
@@ -79,4 +79,13 @@
       createtime = #{createtime,jdbcType=TIMESTAMP}
     where id = #{id,jdbcType=INTEGER}
   </update>
+  <insert id="save">
+    insert into t_shareimages values
+
+    <foreach collection="list" item="photo" separator=",">
+
+      (null,#{photo},#{sid},now())
+    </foreach>
+
+  </insert>
 </mapper>

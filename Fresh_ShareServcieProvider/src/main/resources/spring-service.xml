@@ -15,7 +15,11 @@
 		http://www.springframework.org/schema/aop
 		http://www.springframework.org/schema/aop/spring-aop.xsd
 		">
+<<<<<<< HEAD
 	<context:component-scan base-package="com.fruit.service.share"></context:component-scan>
+=======
+	<context:component-scan base-package="com.fruit.impl.share"></context:component-scan>
+>>>>>>> 4d190be8d39e1891e41d502a15a34637b7106ca5
 	<!--5、配置事务 -->
 	<!--事务管理器 -->
 	<bean id="transactionManager"
@@ -39,7 +43,11 @@
 	<aop:config>
 		<!--配置需要添加事务的方法 -->
 		<aop:pointcut
+<<<<<<< HEAD
 			expression="execution(* com.fruit.service.share.*.*(..))" id="tpt" />
+=======
+			expression="execution(* com.fruit.impl.share.*.*(..))" id="tpt" />
+>>>>>>> 4d190be8d39e1891e41d502a15a34637b7106ca5
 		<!--设置事务 -->
 		<aop:advisor advice-ref="txadvice" pointcut-ref="tpt" />
 	</aop:config>

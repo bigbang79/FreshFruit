@@ -1,18 +1,43 @@
 package com.fruit.common.util;
 
-import java.util.Base64;
+import sun.misc.BASE64Decoder;
+import sun.misc.BASE64Encoder;
 
-/**
- * 基于JDK1.8实现的BASE64编码
- * 编码
- * 解码*/
 public class Base64Utils {
-	//编码
-	public static String encode(String msg){
-		return Base64.getEncoder().encodeToString(msg.getBytes());
-	}
-	//解码
-	public static String decode(String msg){
-		return new String(Base64.getDecoder().decode(msg));
-	}
+
+    /**
+     * base64加密
+     * @param key
+     * @return
+     * @Author ZhuWenFeng
+     * @Date 2018-09-14 21:11
+     */
+    public static String encryptBASE64(String key) {
+        byte[] bt = key.getBytes();
+        return (new BASE64Encoder()).encodeBuffer(bt);
+    }
+
+    /**
+     * BASE64解密
+     * @param key
+     * @return
+     * @Author ZhuWenFeng
+     * @Date 2018-09-14 21:13
+     */
+    public static String decryptBASE64(String key) {
+        byte[] bt;
+        try {
+            bt = (new BASE64Decoder()).decodeBuffer(key);
+            return new String(bt, "utf-8");
+        } catch (Exception e) {
+            e.printStackTrace();
+            return "";
+        }
+    }
+    
+    public static void main(String[] args) {
+        System.out.println(encryptBASE64("123"));
+        System.out.println(decryptBASE64("MTIz"));
+    }
+    
 }

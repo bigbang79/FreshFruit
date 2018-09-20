@@ -1,11 +1,22 @@
-com\fruit\mapper\share\ShareDetailMapper.class
 com\fruit\mapper\share\ShareLetterMapper.class
 com\fruit\mapper\car\CarMapper.class
 com\fruit\mapper\share\ShareCommentMapper.class
 com\fruit\mapper\share\ShareMapper.class
 com\fruit\mapper\share\ShareCollectMapper.class
 com\fruit\mapper\share\ShareTypeMapper.class
+com\fruit\mapper\fruit\RepertoryMapper.class
+com\fruit\mapper\fruit\BrandMapper.class
+com\fruit\mapper\fruit\ItemInfoMapper.class
 com\fruit\mapper\share\ShareImagesMapper.class
+<<<<<<< HEAD
+com\fruit\mapper\share\ShareDetailMapper.class
+com\fruit\mapper\fruit\PlaceMapper.class
+com\fruit\mapper\fruit\UserItemMapper.class
+com\fruit\mapper\fruit\ItemImageMapper.class
+com\fruit\mapper\fruit\CategoryMapper.class
+com\fruit\mapper\fruit\ItemMapper.class
+=======
 com\fruit\mapper\car\OrderMapper.class
 com\fruit\mapper\car\OrderInfoMapper.class
 com\fruit\mapper\car\CarInfoMapper.class
+>>>>>>> 679c0a9da98e2f7f098e4502163ac9f5c4ae8e2c

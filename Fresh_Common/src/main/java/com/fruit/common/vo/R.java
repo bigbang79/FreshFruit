@@ -1,5 +1,9 @@
 package com.fruit.common.vo;
 
+<<<<<<< HEAD
+=======
+import java.io.Serializable;
+>>>>>>> 4d190be8d39e1891e41d502a15a34637b7106ca5
 import java.util.List;
 
 /**
@@ -7,7 +11,11 @@ import java.util.List;
  * @author ZhuWenFeng
  * @param <T>
  */
+<<<<<<< HEAD
 public class R<T> {
+=======
+public class R<T> implements Serializable {
+>>>>>>> 4d190be8d39e1891e41d502a15a34637b7106ca5
 
     private int code;
     
@@ -15,6 +23,7 @@ public class R<T> {
     
     private List<T> data;
 
+<<<<<<< HEAD
     public R() {
     }
 
@@ -29,6 +38,8 @@ public class R<T> {
         this.data = data;
     }
 
+=======
+>>>>>>> 4d190be8d39e1891e41d502a15a34637b7106ca5
     public int getCode() {
         return code;
     }
