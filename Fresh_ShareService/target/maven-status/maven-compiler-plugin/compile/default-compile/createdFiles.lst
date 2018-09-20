@@ -1,0 +1,7 @@
+com\fruit\service\share\ShareTypeService.class
+com\fruit\service\share\ShareCommentServcie.class
+com\fruit\service\share\ShareDetailService.class
+com\fruit\service\share\ShareCollectService.class
+com\fruit\service\share\ShareImagesService.class
+com\fruit\service\share\ShareService.class
+com\fruit\service\share\ShareLetterService.class

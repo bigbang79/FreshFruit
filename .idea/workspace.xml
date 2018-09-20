@@ -1,85 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7958b453-2d53-42e7-93ef-9438b3bb125b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Fresh_FastDFSController/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fresh_FastDFSController/src/main/java/com/fruit/fastdfs/FastDfsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fresh_FastDFSController/src/main/resources/fdfs_client.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fresh_FastDFSController/src/main/resources/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fresh_FastDFSController/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fresh_FruitServiceProvider/src/main/resources/spring-redis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fresh_ShareController/src/main/java/com/fruit/controller/share/ShareCollectController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fresh_ShareController/src/main/java/com/fruit/controller/share/ShareCommentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fresh_ShareController/src/main/java/com/fruit/controller/share/ShareController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fresh_ShareController/src/main/java/com/fruit/controller/share/ShareDetailController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fresh_ShareController/src/main/java/com/fruit/controller/share/ShareImagesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fresh_ShareController/src/main/java/com/fruit/controller/share/ShareLetterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fresh_ShareController/src/main/java/com/fruit/controller/share/ShareTypeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fresh_ShareController/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fresh_ShareController/src/main/resources/spring-dubboconsumer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fresh_ShareController/src/main/resources/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/vo/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/vo/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_Common/target/Fresh_Common-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_Common/target/Fresh_Common-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_Common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_Common/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_Domain/target/Fresh_Domain-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_Domain/target/Fresh_Domain-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_Domain/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_Domain/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_FruitController/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_FruitController/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_FruitServiceProvider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_FruitServiceProvider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_FruitServiceProvider/src/main/java/com/fruit/provider/BrandServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_FruitServiceProvider/src/main/java/com/fruit/provider/BrandServiceProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_FruitServiceProvider/src/main/java/com/fruit/provider/ItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_FruitServiceProvider/src/main/java/com/fruit/provider/ItemServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_FruitServiceProvider/src/main/resources/spring-dubboprovider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_FruitServiceProvider/src/main/resources/spring-dubboprovider.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_FruitServiceProvider/src/main/resources/spring-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_FruitServiceProvider/src/main/resources/spring-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_Mapper/src/main/java/com/fruit/mapper/share/ShareDetailMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_Mapper/src/main/java/com/fruit/mapper/share/ShareDetailMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_Mapper/src/main/java/com/fruit/mapper/share/ShareDetailMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_Mapper/src/main/java/com/fruit/mapper/share/ShareDetailMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_Mapper/src/main/java/com/fruit/mapper/share/ShareLetterMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_Mapper/src/main/java/com/fruit/mapper/share/ShareLetterMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_Mapper/target/Fresh_Mapper-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_Mapper/target/Fresh_Mapper-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_Mapper/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_Mapper/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_SSOController/target/Fresh_SSOController-1.0.0.war" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_SSOController/target/Fresh_SSOController-1.0.0.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_SSOController/target/Fresh_SSOController-1.0.0/WEB-INF/lib/Fresh_Common-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_SSOController/target/Fresh_SSOController-1.0.0/WEB-INF/lib/Fresh_Common-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_SSOController/target/Fresh_SSOController-1.0.0/WEB-INF/lib/Fresh_Domain-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_SSOController/target/Fresh_SSOController-1.0.0/WEB-INF/lib/Fresh_Domain-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_SSOController/target/Fresh_SSOController-1.0.0/WEB-INF/lib/Fresh_SSOService-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_SSOController/target/Fresh_SSOController-1.0.0/WEB-INF/lib/Fresh_SSOService-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_SSOController/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_SSOController/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_SSOService/target/Fresh_SSOService-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_SSOService/target/Fresh_SSOService-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_SSOService/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_SSOService/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_SSOServiceProvider/target/Fresh_SSOServiceProvider-1.0.0.war" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_SSOServiceProvider/target/Fresh_SSOServiceProvider-1.0.0.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_SSOServiceProvider/target/Fresh_SSOServiceProvider-1.0.0/WEB-INF/lib/Fresh_Common-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_SSOServiceProvider/target/Fresh_SSOServiceProvider-1.0.0/WEB-INF/lib/Fresh_Common-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_SSOServiceProvider/target/Fresh_SSOServiceProvider-1.0.0/WEB-INF/lib/Fresh_Domain-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_SSOServiceProvider/target/Fresh_SSOServiceProvider-1.0.0/WEB-INF/lib/Fresh_Domain-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_SSOServiceProvider/target/Fresh_SSOServiceProvider-1.0.0/WEB-INF/lib/Fresh_Mapper-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_SSOServiceProvider/target/Fresh_SSOServiceProvider-1.0.0/WEB-INF/lib/Fresh_Mapper-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_SSOServiceProvider/target/Fresh_SSOServiceProvider-1.0.0/WEB-INF/lib/Fresh_SSOService-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_SSOServiceProvider/target/Fresh_SSOServiceProvider-1.0.0/WEB-INF/lib/Fresh_SSOService-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_SSOServiceProvider/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_SSOServiceProvider/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_ShareController/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_ShareController/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_ShareController/target/Fresh_ShareController-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_ShareController/target/Fresh_ShareController-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_ShareController/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_ShareController/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_ShareServcieProvider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_ShareServcieProvider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_ShareServcieProvider/src/main/java/com/fruit/impl/share/ShareDetailServiceProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_ShareServcieProvider/src/main/java/com/fruit/impl/share/ShareDetailServiceProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_ShareServcieProvider/src/main/java/com/fruit/impl/share/ShareLetterServiceProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_ShareServcieProvider/src/main/java/com/fruit/impl/share/ShareLetterServiceProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_ShareServcieProvider/src/main/resources/spring-dubboprovider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_ShareServcieProvider/src/main/resources/spring-dubboprovider.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_ShareServcieProvider/src/main/resources/spring-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_ShareServcieProvider/src/main/resources/spring-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_ShareServcieProvider/target/Fresh_ShareServcieProvider-1.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_ShareServcieProvider/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_ShareServcieProvider/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_ShareService/src/main/java/com/fruit/service/share/ShareDetailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_ShareService/src/main/java/com/fruit/service/share/ShareDetailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_ShareService/src/main/java/com/fruit/service/share/ShareLetterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_ShareService/src/main/java/com/fruit/service/share/ShareLetterService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_ShareService/target/Fresh_ShareService-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_ShareService/target/Fresh_ShareService-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_ShareService/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_ShareService/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_UserService/target/Fresh_UserService-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_UserService/target/Fresh_UserService-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_UserService/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_UserService/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_UserServiceProvider/target/Fresh_UserServiceProvider-1.0.0.war" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_UserServiceProvider/target/Fresh_UserServiceProvider-1.0.0.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_UserServiceProvider/target/Fresh_UserServiceProvider-1.0.0/WEB-INF/lib/Fresh_Common-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_UserServiceProvider/target/Fresh_UserServiceProvider-1.0.0/WEB-INF/lib/Fresh_Common-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_UserServiceProvider/target/Fresh_UserServiceProvider-1.0.0/WEB-INF/lib/Fresh_Domain-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_UserServiceProvider/target/Fresh_UserServiceProvider-1.0.0/WEB-INF/lib/Fresh_Domain-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_UserServiceProvider/target/Fresh_UserServiceProvider-1.0.0/WEB-INF/lib/Fresh_Mapper-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_UserServiceProvider/target/Fresh_UserServiceProvider-1.0.0/WEB-INF/lib/Fresh_Mapper-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_UserServiceProvider/target/Fresh_UserServiceProvider-1.0.0/WEB-INF/lib/Fresh_UserService-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_UserServiceProvider/target/Fresh_UserServiceProvider-1.0.0/WEB-INF/lib/Fresh_UserService-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_UserServiceProvider/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_UserServiceProvider/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_WebController/target/Fresh_WebController-1.0.0.war" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_WebController/target/Fresh_WebController-1.0.0.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_WebController/target/Fresh_WebController-1.0.0/WEB-INF/lib/Fresh_Common-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_WebController/target/Fresh_WebController-1.0.0/WEB-INF/lib/Fresh_Common-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_WebController/target/Fresh_WebController-1.0.0/WEB-INF/lib/Fresh_Domain-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_WebController/target/Fresh_WebController-1.0.0/WEB-INF/lib/Fresh_Domain-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_WebController/target/Fresh_WebController-1.0.0/WEB-INF/lib/Fresh_Mapper-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_WebController/target/Fresh_WebController-1.0.0/WEB-INF/lib/Fresh_Mapper-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_WebController/target/Fresh_WebController-1.0.0/WEB-INF/lib/Fresh_UserService-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_WebController/target/Fresh_WebController-1.0.0/WEB-INF/lib/Fresh_UserService-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_WebController/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_WebController/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7958b453-2d53-42e7-93ef-9438b3bb125b" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Fresh_Web/target/" />
@@ -475,7 +397,7 @@
       <workItem from="1537333652996" duration="7270000" />
       <workItem from="1537355464410" duration="7639000" />
       <workItem from="1537364360943" duration="7731000" />
-      <workItem from="1537402796862" duration="16119000" />
+      <workItem from="1537402796862" duration="16560000" />
     </task>
     <task id="LOCAL-00001" summary="第三次">
       <created>1537367401644</created>
@@ -484,11 +406,18 @@
       <option name="project" value="LOCAL" />
       <updated>1537367401644</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="第四次">
+      <created>1537449925343</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1537449925343</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48118000" />
+    <option name="totallyTimeSpent" value="48559000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -501,10 +430,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.4349866" side_tool="true" weight="0.33521923" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="12" sideWeight="0.4658177" side_tool="true" visible="true" weight="0.32956153" />
       <window_info anchor="right" id="Maven Projects" order="9" weight="0.1645796" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
@@ -515,6 +443,7 @@
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
+      <window_info anchor="bottom" id="Messages" sideWeight="0.5341823" visible="true" weight="0.32956153" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
@@ -523,7 +452,7 @@
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5650134" weight="0.32771823" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.3125884" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49865952" weight="0.32956153" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29490617" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29490617" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="BPMNPalette" order="5" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
@@ -547,7 +476,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第三次" />
-    <option name="LAST_COMMIT_MESSAGE" value="第三次" />
+    <MESSAGE value="第四次" />
+    <option name="LAST_COMMIT_MESSAGE" value="第四次" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Fresh_FruitServiceProvider/src/main/java/com/fruit/provider/PlaceServiceImpl.java">

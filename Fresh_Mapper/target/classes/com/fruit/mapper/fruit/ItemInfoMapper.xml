@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.fruit.mapper.fruit.ItemInfoMapper">
+	<resultMap id="BaseResultMap" type="com.fruit.domain.fruit.ItemInfo">
+	    <id column="item_info_id" property="itemInfoId" jdbcType="INTEGER" />
+	    <result column="item_id" property="itemId" jdbcType="INTEGER" />
+	    <result column="item_specification" property="itemSpecification" jdbcType="VARCHAR" />
+	    <result column="item_desc" property="itemDesc" jdbcType="VARCHAR" />
+	    <result column="item_desc_image" property="itemDescImage" jdbcType="VARCHAR" />
+	    <result column="item_parameter" property="itemParameter" jdbcType="VARCHAR" />
+	    <result column="item_pack" property="itemPack" jdbcType="VARCHAR" />
+	    <result column="item_after_sale" property="itemAfterSale" jdbcType="VARCHAR" />
+	    <result column="state" property="state" jdbcType="INTEGER" />
+	</resultMap>
+	
+	<sql id="Base_Column_List">
+		item_info_id, item_id, item_specification, item_desc, item_desc_image,
+		item_parameter,
+		item_pack, item_after_sale, state
+	</sql>
+	
+	<!-- 新增商品介绍 -->
+    <insert id="insertItemInfo" parameterType="com.fruit.domain.fruit.ItemInfo" useGeneratedKeys="true">
+        insert into t_item_info (item_info_id, item_id, item_specification,
+        item_desc, item_desc_image, item_parameter,
+        item_pack, item_after_sale)
+        values (#{itemInfoId}, #{itemId},
+        #{itemSpecification},
+        #{itemDesc}, #{itemDescImage}, #{itemParameter},
+        #{itemPack}, #{itemAfterSale})
+    </insert>	
+    
+    <!-- 修改商品介绍 -->
+    <update id="updateItemInfo" parameterType="com.fruit.domain.fruit.ItemInfo">
+        update t_item_info
+        set item_id = #{itemId},
+        item_specification = #{itemSpecification},
+        item_desc = #{itemDesc},
+        item_desc_image = #{itemDescImage},
+        item_parameter = #{itemParameter},
+        item_pack = #{itemPack},
+        item_after_sale = #{itemAfterSale}
+        where item_info_id = #{itemInfoId}
+    </update> 
+    
+    <!-- 修改商品介绍表state -->  
+    <update id="updateItemInfoState" parameterType="com.fruit.domain.fruit.ItemInfo">
+        update t_item_info
+        set state = #{state}
+        where item_info_id = #{itemInfoId}
+    </update> 
+    
+</mapper>
