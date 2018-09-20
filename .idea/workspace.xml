@@ -2,51 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f817cfc-41c6-41da-816e-30cb2ef9912a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/result/PageVo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/util/JsonUtils.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/util/RandomUtils.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Fresh_Common/src/main/java/com/fruit/common/vo/R.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fresh_Domain/src/main/java/com/fruit/domain/fruit/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fresh_Domain/src/main/java/com/fruit/domain/fruit/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fresh_Domain/src/main/java/com/fruit/domain/fruit/ItemImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fresh_Domain/src/main/java/com/fruit/domain/fruit/ItemInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fresh_Domain/src/main/java/com/fruit/domain/fruit/Place.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fresh_Domain/src/main/java/com/fruit/domain/fruit/Repertory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fresh_Domain/src/main/java/com/fruit/domain/fruit/UserItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fresh_ShareServcieProvider/src/main/java/com/fruit/impl/share/ShareCommentServiceProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fresh_ShareServcieProvider/src/main/java/com/fruit/impl/share/ShareDetailServiceProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fresh_ShareServcieProvider/src/main/java/com/fruit/impl/share/ShareImagesServiceProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fresh_ShareServcieProvider/src/main/java/com/fruit/impl/share/ShareServiceProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fresh_ShareServcieProvider/src/main/java/com/fruit/impl/share/ShareTypeServiceProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fresh_ShareServcieProvider/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fresh_ShareServcieProvider/src/main/resources/spring-dao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fresh_ShareServcieProvider/src/main/resources/spring-dubboprovider.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fresh_ShareServcieProvider/src/main/resources/spring-service.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fresh_ShareService/src/main/java/com/fruit/service/share/ShareCollectService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fresh_ShareService/src/main/java/com/fruit/service/share/ShareDetailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fresh_ShareService/src/main/java/com/fruit/service/share/ShareImagesService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fresh_ShareService/src/main/java/com/fruit/service/share/ShareLetterService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fresh_ShareService/src/main/java/com/fruit/service/share/ShareService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_CarController/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_CarController/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_CarController/src/main/java/com/fruit/consumer/car/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_CarController/src/main/java/com/fruit/consumer/car/CarController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_CarController/src/main/resources/dbconfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_CarController/src/main/resources/dbconfig.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_CarController/src/main/resources/spring-dubboconsummer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_CarController/src/main/resources/spring-dubboconsummer.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_CarController/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_CarController/src/main/resources/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_CarController/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_CarController/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_CarService/src/main/java/com/fruit/service/car/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_CarService/src/main/java/com/fruit/service/car/CarService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_CarServiceProvider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_CarServiceProvider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_CarServiceProvider/src/main/java/com/fruit/provider/car/CarProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_CarServiceProvider/src/main/java/com/fruit/provider/car/CarProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fresh_Common/target/Fresh_Common-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_Common/target/Fresh_Common-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fresh_Common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_Common/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fresh_Common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_Common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fresh_Common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_Common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_Domain/src/main/java/com/fruit/domain/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_Domain/src/main/java/com/fruit/domain/user/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_Domain/target/Fresh_Domain-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_Domain/target/Fresh_Domain-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_Domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_Domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_Mapper/target/Fresh_Mapper-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_Mapper/target/Fresh_Mapper-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fresh_Mapper/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Fresh_Mapper/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Fresh_ShareService/target/" />
     <ignored path="$PROJECT_DIR$/Fresh_UserService/target/" />
@@ -75,11 +38,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CarController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CarController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fresh_CarController/src/main/java/com/fruit/consumer/car/CarController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+            <state relative-caret-position="303">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,26 +53,17 @@
       <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fresh_CarController/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
+            <state relative-caret-position="621">
               <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="springmvc.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="springmvc.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Fresh_CarController/src/main/resources/springmvc.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="60" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-dubboconsummer.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fresh_CarController/src/main/resources/spring-dubboconsummer.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="55" lean-forward="true" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="55" />
+            <state relative-caret-position="11">
+              <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -297,10 +251,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="47" />
-    <option name="width" value="1338" />
-    <option name="height" value="860" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="22" />
+    <option name="y" value="148" />
+    <option name="width" value="1363" />
+    <option name="height" value="663" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -314,6 +269,49 @@
             <path>
               <item name="Fresh" type="b2602c69:ProjectViewProjectNode" />
               <item name="FreshFruit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FreshFruit" type="462c0819:PsiDirectoryNode" />
+              <item name="Fresh_CarController" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FreshFruit" type="462c0819:PsiDirectoryNode" />
+              <item name="Fresh_CarController" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FreshFruit" type="462c0819:PsiDirectoryNode" />
+              <item name="Fresh_CarController" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FreshFruit" type="462c0819:PsiDirectoryNode" />
+              <item name="Fresh_CarController" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FreshFruit" type="462c0819:PsiDirectoryNode" />
+              <item name="Fresh_CarController" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FreshFruit" type="462c0819:PsiDirectoryNode" />
+              <item name="Fresh_CarController" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Fresh" type="b2602c69:ProjectViewProjectNode" />
@@ -559,18 +557,25 @@
       <option name="project" value="LOCAL" />
       <updated>1537446535501</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="完成购物车服务消费者">
+      <created>1537453026036</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1537453026036</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33317000" />
+    <option name="totallyTimeSpent" value="33815000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="47" y="0" width="1338" height="860" extended-state="0" />
+    <frame x="22" y="398" width="1363" height="413" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5023474" side_tool="true" weight="0.3068182" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.20187794" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.1980046" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -589,8 +594,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.6799687" weight="0.27414772" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4976526" weight="0.75" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.76578736" visible="true" weight="0.26704547" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2597809" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.76578736" visible="true" weight="0.7237354" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25479662" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -635,7 +640,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="完成购物车服务提供者" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成购物车服务提供者" />
+    <MESSAGE value="完成购物车服务消费者" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成购物车服务消费者" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -945,20 +951,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fresh_CarController/src/main/resources/spring-dubboconsummer.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="55" lean-forward="true" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fresh_CarController/src/main/resources/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="60" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Fresh_CarServiceProvider/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -966,20 +958,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_CarController/src/main/java/com/fruit/consumer/car/CarController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Fresh_CarController/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
+        <state relative-caret-position="621">
           <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fresh_CarController/src/main/java/com/fruit/consumer/car/CarController.java">
+    <entry file="file://$PROJECT_DIR$/Fresh_CarController/src/main/resources/spring-dubboconsummer.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="270">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh_CarController/src/main/resources/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11">
+          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
         </state>
       </provider>
     </entry>
