@@ -21,16 +21,13 @@
         <module>Fresh_ShareService</module>
         <module>Fresh_ShareServcieProvider</module>
         <module>Fresh_ShareController</module>
-<<<<<<< HEAD
         <module>Fresh_FruitService</module>
         <module>Fresh_FruitServiceProvider</module>
         <module>Fresh_FruitController</module>
         <module>Fresh_FastDFSController</module>
-=======
         <module>Fresh_CarService</module>
         <module>Fresh_CarServiceProvider</module>
         <module>Fresh_CarController</module>
->>>>>>> 679c0a9da98e2f7f098e4502163ac9f5c4ae8e2c
     </modules>
 
 
