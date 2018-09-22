@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery.min.js"></script>
+
+</head>
+
+<body>
+<script type="application/javascript">
+    function init() {
+
+        $.ajax({
+            url:"http://localhost:8082/ssologinout.do",
+            method:"get",
+            xhrFields: {withCredentials: true},
+            success:function (obj) {
+                if(obj.code==0){
+                    location.href="login.html";
+                }
+            }
+        })
+    }
+    function getCK(name) {
+        var cks1=document.cookie;
+        console.log(cks1)
+        var arrc1=cks1.split(";");
+        for(i=0;i<arrc1.length;i++){
+            var ck1=arrc1[i];
+            var arrc2=ck1.split("=");
+            if(arrc2[0]==name){
+                return arrc2[1];
+            }
+        }
+        return "";
+    }
+    init();
+</script>
+11111111111
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "code": 101,
+  "msg": "登录成功",
+  "data": {
+    "userId": 19,
+    "username": "pfd",
+    "password": "123",
+    "userSex": null,
+    "userPhoto": "DEFAULT.jpg",
+    "userPhone": "4245",
+    "createtime": 1537252014000,
+    "flag": 0,
+    "usercode": null
+  }
+}

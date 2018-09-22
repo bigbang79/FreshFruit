@@ -1,0 +1,396 @@
+GET http://10.8.163.64:8082/ssologin.do?username=adf&password=123
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://10.8.163.64:8082/ssologin.do?username=adf&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-21T022000.200.json
+
+###
+
+GET http://10.8.163.64:8082/ssologin.do?username=adf&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-21T020432.200.json
+
+###
+
+GET http://10.8.163.64:8082/ssologin.do?username=adf&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-21T020203.200.json
+
+###
+
+GET http://10.8.163.64:8082/ssologin.do?username=adf&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-21T122117.200.json
+
+###
+
+GET http://10.8.163.64:8082/ssologin.do?username=adf&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-21T121836.200.json
+
+###
+
+GET http://10.8.163.64:8082/ssologin.do?username=adf&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-21T121128.200.json
+
+###
+
+GET http://10.8.163.64:8082/ssologin.do?username=adf&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-21T120533.200.json
+
+###
+
+GET http://10.8.163.64:8082/ssologinout.do
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-21T120207.500.html
+
+###
+
+GET http://10.8.163.64:8082/ssologinout.do?username=adf&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-21T120201.500.html
+
+###
+
+GET http://10.8.163.64:8082/ssologin.do?username=adf&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-21T115256.200.json
+
+###
+
+GET http://10.8.163.64:8082/ssologin.do?username=adf&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-21T114954.200.json
+
+###
+
+GET http://10.8.163.64:8082/ssologinout.do?username=adf&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-21T114734.500.html
+
+###
+
+GET http://10.8.163.64:8082/ssologin.do?username=adf&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-21T114637.200.json
+
+###
+
+GET http://10.8.163.64:8082/ssologin.do?username=adf&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-21T114156.200.json
+
+###
+
+GET http://10.8.163.64:8082/ssologin.do?username=pfd&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-21T111455.200.json
+
+###
+
+GET http://10.8.163.64:8082/ssologin.do?username=pfd&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-21T111236.200.json
+
+###
+
+GET http://10.8.163.64:8082/ssologin.do?username=pfd&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-21T110927.200.json
+
+###
+
+GET http://10.8.163.64:8082/ssologinout.do?username=pfd&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-21T110656.500.html
+
+###
+
+GET http://10.8.163.64:8082/ssologincheck.do?username=pfd&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-21T110629.200.json
+
+###
+
+GET http://10.8.163.64:8082/ssologincheck.do?username=pfd&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-21T110603.200.json
+
+###
+
+GET http://10.8.163.64:8082/ssologin.do?username=pfd&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-21T110541.200.json
+
+###
+
+GET http://10.8.163.64:8082/ssologinout.do?username=pfd&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-21T110331.500.html
+
+###
+
+GET http://10.8.163.64:8082/ssologinout.do?username=pfd&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-21T110157.500.html
+
+###
+
+GET http://10.8.163.64:8082/ssologinout.do?username=pfd&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-21T110109.500.html
+
+###
+
+GET http://10.8.163.64:8082/ssologin.do?username=pfd&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-21T110044.200.json
+
+###
+
+GET http://10.8.163.64:8082/ssologin.do?username=pfd&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-21T105721.200.json
+
+###
+
+GET http://10.8.163.64:8082/ssologinout.do
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-21T105552.500.html
+
+###
+
+GET http://10.8.163.64:8082/ssologin.do?username=pfd&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-21T105528.200.json
+
+###
+
+GET http://10.8.163.64:8082/ssologinout.do?username=pfd&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-21T103434.500.html
+
+###
+
+GET http://10.8.163.64:8082/ssologinout.do?username=pfd&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-21T103222.500.html
+
+###
+
+GET http://10.8.163.64:8082/ssologinout.do?username=pfd&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-21T102950.500.html
+
+###
+
+GET http://10.8.163.64:8082/ssologinout.do?username=pfd&password=123
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://10.8.163.64:8082/ssologinout.do?username=pfd&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-20T104548.500.html
+
+###
+
+GET http://10.8.163.64:8082/ssologincheck.do?username=pfd&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-20T104458.200.json
+
+###
+
+GET http://10.8.163.64:8082/ssologin.do?username=pfd&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-20T103408.200.json
+
+###
+
+GET http://10.8.163.64:8082/ssologin.do?username=pfd&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-20T102853.500.html
+
+###
+
+GET http://10.8.163.64:8082/ssologin.do?username=pfd&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-20T102607.500.html
+
+###
+
+GET http://10.8.163.64:8082/ssologin.do?username=pfd&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-20T102001.500.html
+
+###
+
+GET http://10.8.163.64:8082/ssologin.do?username=pfd&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-20T101834.500.html
+
+###
+
+GET http://10.8.163.64:8082/ssologin.do?username=pfd&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-20T101124.500.html
+
+###
+
+GET http://10.8.163.64:8082/ssologin.do?username=pfd&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-20T085617.500.html
+
+###
+
+GET http://10.8.163.64:8082/ssologin.do?username=pfd&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-20T084853.500.html
+
+###
+
+GET http://10.8.163.64:8082/ssologin.do?username=pfd&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-20T084718.500.html
+
+###
+
+GET http://10.8.163.64:8082/ssologin.do?username=pfd&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-20T084622.500.html
+
+###
+
+POST http://10.8.163.64:8082/ssologin.do?username=pfd&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-20T080416.500.html
+
+###
+
+GET http://10.8.163.64:8082/ssologin.do?username=pfd&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-20T080412.500.html
+
+###
+
+GET http://10.8.163.64:8082/ssologin.do?username=pfd&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-20T080355.500.html
+
+###
+
+GET http://10.8.163.64:8082/ssologin.do?phone=18236946780
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-20T080306.200.json
+
+###
+
+GET http://10.8.163.64:8081/usercheck.do?phone=18236946780
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-20T072202.500.html
+
+###
+

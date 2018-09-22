@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Fresh_Common" />
+        <module name="Fresh_Domain" />
+        <module name="Fresh_Mapper" />
+        <module name="Fresh_SSOController" />
+        <module name="Fresh_SSOService" />
+        <module name="Fresh_SSOServiceProvider" />
+        <module name="Fresh_UserService" />
+        <module name="Fresh_UserServiceProvider" />
+        <module name="Fresh_Web" />
+        <module name="Fresh_WebController" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
