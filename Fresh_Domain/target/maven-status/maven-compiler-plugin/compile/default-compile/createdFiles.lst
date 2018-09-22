@@ -1,1 +1,49 @@
+<<<<<<< HEAD
 com\fresh\domain\User.class
+=======
+<<<<<<< HEAD
+com\fruit\domain\fruit\Place.class
+=======
+<<<<<<< HEAD
+com\fruit\domain\fruit\Place.class
+com\fruit\domain\share\Share.class
+com\fruit\domain\share\ShareType.class
+com\fruit\domain\fruit\Brand.class
+com\fruit\domain\fruit\Item.class
+com\fruit\domain\fruit\Repertory.class
+com\fruit\domain\share\ShareLetter.class
+com\fruit\domain\share\ShareComment.class
+com\fruit\domain\fruit\Category.class
+com\fruit\domain\share\ShareImages.class
+com\fruit\domain\fruit\ItemImage.class
+com\fruit\domain\share\ShareCollect.class
+com\fruit\domain\share\ShareDetail.class
+com\fruit\domain\fruit\ItemInfo.class
+com\fruit\domain\fruit\UserItem.class
+=======
+com\fruit\domain\share\ShareComment.class
+>>>>>>> 4d190be8d39e1891e41d502a15a34637b7106ca5
+com\fruit\domain\car\OrderInfo.class
+com\fruit\domain\share\Share.class
+com\fruit\domain\car\Car.class
+com\fruit\domain\share\ShareType.class
+com\fruit\domain\car\Order.class
+com\fruit\domain\car\CarInfo.class
+com\fruit\domain\fruit\Item.class
+com\fruit\domain\fruit\Repertory.class
+com\fruit\domain\share\ShareLetter.class
+com\fruit\domain\share\ShareComment.class
+com\fruit\domain\fruit\Category.class
+com\fruit\domain\share\ShareImages.class
+com\fruit\domain\fruit\ItemImage.class
+com\fruit\domain\share\ShareCollect.class
+com\fruit\domain\share\ShareDetail.class
+com\fruit\domain\fruit\ItemInfo.class
+com\fruit\domain\user\User.class
+<<<<<<< HEAD
+com\fruit\domain\fruit\UserItem.class
+=======
+com\fruit\domain\share\ShareLetter.class
+>>>>>>> 679c0a9da98e2f7f098e4502163ac9f5c4ae8e2c
+>>>>>>> 4d190be8d39e1891e41d502a15a34637b7106ca5
+>>>>>>> 9fe2b1071f65d974e6994ec675abbfdad13fe030

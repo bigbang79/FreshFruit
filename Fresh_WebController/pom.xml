@@ -8,10 +8,16 @@
         <version>1.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
+<<<<<<< HEAD
     <artifactId>Fresh_WebController</artifactId>
     <packaging>war</packaging>
 
 
+=======
+    <packaging>war</packaging>
+
+    <artifactId>Fresh_WebController</artifactId>
+>>>>>>> 9fe2b1071f65d974e6994ec675abbfdad13fe030
     <dependencies>
         <dependency>
             <groupId>com.freshfruit</groupId>
@@ -20,6 +26,7 @@
         </dependency>
     </dependencies>
 
+<<<<<<< HEAD
     <build>
         <plugins>
             <plugin>
@@ -34,4 +41,7 @@
             </plugin>
         </plugins>
     </build>
+=======
+
+>>>>>>> 9fe2b1071f65d974e6994ec675abbfdad13fe030
 </project>

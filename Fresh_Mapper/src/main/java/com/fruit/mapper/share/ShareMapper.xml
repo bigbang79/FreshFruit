@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.fruit.mapper.share.ShareMapper" >
+  <resultMap id="BaseResultMap" type="com.fruit.domain.share.Share" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="share_title" property="shareTitle" jdbcType="VARCHAR" />
+    <result column="share_id" property="shareId" jdbcType="INTEGER" />
+    <result column="share_uid" property="shareUid" jdbcType="INTEGER" />
+    <result column="share_flag" property="shareFlag" jdbcType="INTEGER" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, share_title, share_id, share_uid, share_flag
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from t_share
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from t_share
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.fruit.domain.share.Share" useGeneratedKeys="true">
+    <selectKey resultType="java.lang.Integer" keyProperty="id" order="AFTER" >
+      SELECT LAST_INSERT_ID()
+    </selectKey>
+    insert into t_share (share_title,  share_uid,
+      share_flag)
+    values (#{shareTitle,jdbcType=VARCHAR}, #{shareUid,jdbcType=INTEGER},
+      #{shareFlag,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="com.fruit.domain.share.Share" >
+    <selectKey resultType="java.lang.Integer" keyProperty="id" order="AFTER" >
+      SELECT LAST_INSERT_ID()
+    </selectKey>
+    insert into t_share
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="shareTitle != null" >
+        share_title,
+      </if>
+      <if test="shareId != null" >
+        share_id,
+      </if>
+      <if test="shareUid != null" >
+        share_uid,
+      </if>
+      <if test="shareFlag != null" >
+        share_flag,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="shareTitle != null" >
+        #{shareTitle,jdbcType=VARCHAR},
+      </if>
+      <if test="shareId != null" >
+        #{shareId,jdbcType=INTEGER},
+      </if>
+      <if test="shareUid != null" >
+        #{shareUid,jdbcType=INTEGER},
+      </if>
+      <if test="shareFlag != null" >
+        #{shareFlag,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.fruit.domain.share.Share" >
+    update t_share
+    <set >
+      <if test="shareTitle != null" >
+        share_title = #{shareTitle,jdbcType=VARCHAR},
+      </if>
+      <if test="shareId != null" >
+        share_id = #{shareId,jdbcType=INTEGER},
+      </if>
+      <if test="shareUid != null" >
+        share_uid = #{shareUid,jdbcType=INTEGER},
+      </if>
+      <if test="shareFlag != null" >
+        share_flag = #{shareFlag,jdbcType=INTEGER},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.fruit.domain.share.Share" >
+    update t_share
+    set share_title = #{shareTitle,jdbcType=VARCHAR},
+      share_id = #{shareId,jdbcType=INTEGER},
+      share_uid = #{shareUid,jdbcType=INTEGER},
+      share_flag = #{shareFlag,jdbcType=INTEGER}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>

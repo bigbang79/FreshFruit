@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:\fruit\Fresh\Fresh_Common\src\main\java\com\fresh\common\util\HttpUtils.java
 D:\fruit\Fresh\Fresh_Common\src\main\java\com\fresh\common\util\EncodingFilter.java
 D:\fruit\Fresh\Fresh_Common\src\main\java\com\fresh\common\util\EncrypUtil.java
@@ -26,3 +27,62 @@ D:\fruit\Fresh\Fresh_Common\src\main\java\com\fresh\common\util\LoginUtil.java
 D:\fruit\Fresh\Fresh_Common\src\main\java\com\fresh\common\email\EmailMsg.java
 D:\fruit\Fresh\Fresh_Common\src\main\java\com\fresh\common\miaodiyun\httpApiDemo\common\Config.java
 D:\fruit\Fresh\Fresh_Common\src\main\java\com\fresh\common\miaodiyun\huiDiao\entity\ReceNoticeReq.java
+=======
+<<<<<<< HEAD
+D:\classrep\Fresh\Fresh_Common\src\main\java\com\fruit\common\email\EmailUtils.java
+D:\classrep\Fresh\Fresh_Common\src\main\java\com\fruit\common\util\OSSUtil.java
+D:\classrep\Fresh\Fresh_Common\src\main\java\com\fruit\common\util\SpringContextUtils.java
+D:\classrep\Fresh\Fresh_Common\src\main\java\com\fruit\common\util\MailUtils.java
+D:\classrep\Fresh\Fresh_Common\src\main\java\com\fruit\common\util\IdGenerator.java
+D:\classrep\Fresh\Fresh_Common\src\main\java\com\fruit\common\util\DateUtil.java
+D:\classrep\Fresh\Fresh_Common\src\main\java\com\fruit\common\util\RandomUtils.java
+D:\classrep\Fresh\Fresh_Common\src\main\java\com\fruit\common\result\PageVo.java
+D:\classrep\Fresh\Fresh_Common\src\main\java\com\fruit\common\vo\R.java
+D:\classrep\Fresh\Fresh_Common\src\main\java\com\fruit\common\util\ResultUtil.java
+D:\classrep\Fresh\Fresh_Common\src\main\java\com\fruit\common\jedis\JedisClient.java
+D:\classrep\Fresh\Fresh_Common\src\main\java\com\fruit\common\result\R.java
+D:\classrep\Fresh\Fresh_Common\src\main\java\com\fruit\common\redis\JedisUtil.java
+D:\classrep\Fresh\Fresh_Common\src\main\java\com\fruit\common\util\HttpUtils.java
+D:\classrep\Fresh\Fresh_Common\src\main\java\com\fruit\common\jedis\JedisClientPool.java
+D:\classrep\Fresh\Fresh_Common\src\main\java\com\fruit\common\cros\CROSFilter.java
+D:\classrep\Fresh\Fresh_Common\src\main\java\com\fruit\common\util\CookieUtil.java
+D:\classrep\Fresh\Fresh_Common\src\main\java\com\fruit\common\email\EmailMsg.java
+D:\classrep\Fresh\Fresh_Common\src\main\java\com\fruit\common\util\FileUtils.java
+D:\classrep\Fresh\Fresh_Common\src\main\java\com\fruit\common\jedis\JedisClientCluster.java
+D:\classrep\Fresh\Fresh_Common\src\main\java\com\fruit\common\util\ExcelUtils.java
+D:\classrep\Fresh\Fresh_Common\src\main\java\com\fruit\common\util\IPUtils.java
+D:\classrep\Fresh\Fresh_Common\src\main\java\com\fruit\common\util\JsonUtils.java
+D:\classrep\Fresh\Fresh_Common\src\main\java\com\fruit\common\util\FDFSUtil.java
+D:\classrep\Fresh\Fresh_Common\src\main\java\com\fruit\common\util\EncrypUtil.java
+D:\classrep\Fresh\Fresh_Common\src\main\java\com\fruit\common\util\LoginUtil.java
+D:\classrep\Fresh\Fresh_Common\src\main\java\com\fruit\common\util\Base64Utils.java
+=======
+D:\ideaSpace\FreshFruit\Fresh_Common\src\main\java\com\fruit\common\redis\JedisUtil.java
+D:\ideaSpace\FreshFruit\Fresh_Common\src\main\java\com\fruit\common\util\IdGenerator.java
+D:\ideaSpace\FreshFruit\Fresh_Common\src\main\java\com\fruit\common\util\HttpUtils.java
+D:\ideaSpace\FreshFruit\Fresh_Common\src\main\java\com\fruit\common\util\EncrypUtil.java
+D:\ideaSpace\FreshFruit\Fresh_Common\src\main\java\com\fruit\common\cros\CROSFilter.java
+D:\ideaSpace\FreshFruit\Fresh_Common\src\main\java\com\fruit\common\util\OSSUtil.java
+D:\ideaSpace\FreshFruit\Fresh_Common\src\main\java\com\fruit\common\util\SpringContextUtils.java
+D:\ideaSpace\FreshFruit\Fresh_Common\src\main\java\com\fruit\common\email\EmailUtils.java
+D:\ideaSpace\FreshFruit\Fresh_Common\src\main\java\com\fruit\common\util\JsonUtils.java
+D:\ideaSpace\FreshFruit\Fresh_Common\src\main\java\com\fruit\common\util\ExcelUtils.java
+D:\ideaSpace\FreshFruit\Fresh_Common\src\main\java\com\fruit\common\util\Base64Utils.java
+D:\ideaSpace\FreshFruit\Fresh_Common\src\main\java\com\fruit\common\util\FileUtils.java
+D:\ideaSpace\FreshFruit\Fresh_Common\src\main\java\com\fruit\common\vo\R.java
+D:\ideaSpace\FreshFruit\Fresh_Common\src\main\java\com\fruit\common\result\R.java
+D:\ideaSpace\FreshFruit\Fresh_Common\src\main\java\com\fruit\common\util\FDFSUtil.java
+D:\ideaSpace\FreshFruit\Fresh_Common\src\main\java\com\fruit\common\util\RandomUtils.java
+D:\ideaSpace\FreshFruit\Fresh_Common\src\main\java\com\fruit\common\email\EmailMsg.java
+D:\ideaSpace\FreshFruit\Fresh_Common\src\main\java\com\fruit\common\util\LoginUtil.java
+D:\ideaSpace\FreshFruit\Fresh_Common\src\main\java\com\fruit\common\util\ResultUtil.java
+D:\ideaSpace\FreshFruit\Fresh_Common\src\main\java\com\fruit\common\util\CookieUtil.java
+D:\ideaSpace\FreshFruit\Fresh_Common\src\main\java\com\fruit\common\util\DateUtil.java
+D:\ideaSpace\FreshFruit\Fresh_Common\src\main\java\com\fruit\common\jedis\JedisClientCluster.java
+D:\ideaSpace\FreshFruit\Fresh_Common\src\main\java\com\fruit\common\util\IPUtils.java
+<<<<<<< HEAD
+D:\ideaSpace\FreshFruit\Fresh_Common\src\main\java\com\fruit\common\result\PageVo.java
+=======
+>>>>>>> 679c0a9da98e2f7f098e4502163ac9f5c4ae8e2c
+>>>>>>> 4d190be8d39e1891e41d502a15a34637b7106ca5
+>>>>>>> 9fe2b1071f65d974e6994ec675abbfdad13fe030

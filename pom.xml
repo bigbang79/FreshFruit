@@ -12,13 +12,29 @@
         <module>Fresh_Common</module>
         <module>Fresh_Domain</module>
         <module>Fresh_Mapper</module>
+<<<<<<< HEAD
         <module>Fresh_Web</module>
+=======
+>>>>>>> 9fe2b1071f65d974e6994ec675abbfdad13fe030
         <module>Fresh_UserService</module>
         <module>Fresh_UserServiceProvider</module>
         <module>Fresh_SSOController</module>
         <module>Fresh_SSOService</module>
         <module>Fresh_SSOServiceProvider</module>
         <module>Fresh_WebController</module>
+<<<<<<< HEAD
+=======
+        <module>Fresh_ShareService</module>
+        <module>Fresh_ShareServcieProvider</module>
+        <module>Fresh_ShareController</module>
+        <module>Fresh_FruitService</module>
+        <module>Fresh_FruitServiceProvider</module>
+        <module>Fresh_FruitController</module>
+        <module>Fresh_FastDFSController</module>
+        <module>Fresh_CarService</module>
+        <module>Fresh_CarServiceProvider</module>
+        <module>Fresh_CarController</module>
+>>>>>>> 9fe2b1071f65d974e6994ec675abbfdad13fe030
     </modules>
 
 
@@ -223,6 +239,7 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.1</version>
                 <configuration>
+<<<<<<< HEAD
                     <source>1.8</source>
                     <target>1.8</target>
                     <encoding>UTF-8</encoding>
@@ -230,8 +247,19 @@
             </plugin>
 
 
+=======
+                    <source>${jdk.version}</source>
+                    <target>${jdk.version}</target>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+>>>>>>> 9fe2b1071f65d974e6994ec675abbfdad13fe030
         </plugins>
     </build>
 
 
+<<<<<<< HEAD
 </project>
+=======
+</project>
+>>>>>>> 9fe2b1071f65d974e6994ec675abbfdad13fe030

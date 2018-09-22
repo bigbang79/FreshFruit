@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 GET http://10.8.163.64:8082/ssologin.do?username=adf&password=123
 Accept: */*
 Cache-Control: no-cache
@@ -391,6 +392,69 @@ Accept: */*
 Cache-Control: no-cache
 
 <> 2018-09-20T072202.500.html
+=======
+POST http://localhost:8087/test.do
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-20T100523.404.html
+
+###
+
+GET http://localhost:8087/test.do
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-20T100318.404.html
+
+###
+
+GET http://localhost:8087/test.do
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-20T094511.500.html
+
+###
+
+GET http://localhost:8087/test.do
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-20T092905.500.html
+
+###
+
+POST http://localhost:8087/test.do
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-20T091411.404.html
+
+###
+
+POST http://localhost:8087/carInfoUpdate.do
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-20T091400.404.html
+
+###
+
+POST http://localhost:8087/test.do
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-20T091310.404.html
+
+###
+
+GET http://localhost:8087/test.do
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-20T091232.404.html
+>>>>>>> 9fe2b1071f65d974e6994ec675abbfdad13fe030
 
 ###
 

@@ -1,0 +1,6 @@
+com\fruit\service\UserItemService.class
+com\fruit\service\ItemService.class
+com\fruit\service\BrandService.class
+com\fruit\service\PlaceService.class
+com\fruit\service\CategoryService.class
+com\fruit\service\RepertoryService.class

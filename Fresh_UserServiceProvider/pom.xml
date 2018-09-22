@@ -17,8 +17,11 @@
             <artifactId>Fresh_UserService</artifactId>
             <version>1.0.0</version>
         </dependency>
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 9fe2b1071f65d974e6994ec675abbfdad13fe030
     </dependencies>
     <build>
         <plugins>

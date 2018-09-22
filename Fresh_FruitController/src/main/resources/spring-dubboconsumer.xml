@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <!--服务消费者-->
+    <!--1、应用名称-->
+    <dubbo:application name="userconsumer"></dubbo:application>
+    <!--2、配置注册中心-->
+    <dubbo:registry address="zookeeper://47.98.186.179:2181" check="false"></dubbo:registry>
+    <!--3、配置协议-->
+    <dubbo:protocol name="dubbo" port="20880"  ></dubbo:protocol>
+    <!--4、配置消费服务-->
+    <dubbo:reference interface="com.fruit.service.UserItemService" id="userItemProvider" timeout="60000" retries="0"></dubbo:reference>
+    <dubbo:reference interface="com.fruit.service.RepertoryService" id="repertoryProvider" timeout="60000" retries="0"></dubbo:reference>
+    <dubbo:reference interface="com.fruit.service.PlaceService" id="placeProvider" timeout="60000" retries="0"></dubbo:reference>
+    <dubbo:reference interface="com.fruit.service.ItemService" id="itemProvider" timeout="60000" retries="0"></dubbo:reference>
+    <dubbo:reference interface="com.fruit.service.BrandService" id="brandProvider" timeout="60000" retries="0"></dubbo:reference>
+    <dubbo:reference interface="com.fruit.service.CategoryService" id="categoryProvider" timeout="60000" retries="0"></dubbo:reference>
+
+
+</beans>

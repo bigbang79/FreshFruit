@@ -2,10 +2,25 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+<<<<<<< HEAD
     <file type="web" url="file://$PROJECT_DIR$/Fresh_SSOController" />
     <file type="web" url="file://$PROJECT_DIR$/Fresh_SSOServiceProvider" />
     <file type="web" url="file://$PROJECT_DIR$/Fresh_UserServiceProvider" />
     <file type="web" url="file://$PROJECT_DIR$/Fresh_Web" />
+=======
+<<<<<<< HEAD
+    <file type="web" url="file://$PROJECT_DIR$/Fresh_FastDFSController" />
+    <file type="web" url="file://$PROJECT_DIR$/Fresh_FruitServiceProvider" />
+    <file type="web" url="file://$PROJECT_DIR$/Fresh_ShareController" />
+    <file type="web" url="file://$PROJECT_DIR$/Fresh_ShareServcieProvider" />
+=======
+    <file type="web" url="file://$PROJECT_DIR$/Fresh_CarController" />
+    <file type="web" url="file://$PROJECT_DIR$/Fresh_CarServiceProvider" />
+>>>>>>> 679c0a9da98e2f7f098e4502163ac9f5c4ae8e2c
+    <file type="web" url="file://$PROJECT_DIR$/Fresh_SSOController" />
+    <file type="web" url="file://$PROJECT_DIR$/Fresh_SSOServiceProvider" />
+    <file type="web" url="file://$PROJECT_DIR$/Fresh_UserServiceProvider" />
+>>>>>>> 9fe2b1071f65d974e6994ec675abbfdad13fe030
     <file type="web" url="file://$PROJECT_DIR$/Fresh_WebController" />
   </component>
   <component name="MavenProjectsManager">

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.fruit.mapper.fruit.CategoryMapper">
+	<resultMap id="BaseResultMap"
+		type="com.fruit.domain.fruit.Category">
+		<id column="category_id" property="categoryId" jdbcType="INTEGER" />
+		<result column="category_parent_id" property="categoryParentId" jdbcType="INTEGER" />
+		<result column="category_name" property="categoryName" jdbcType="VARCHAR" />
+		<result column="category_sort_order" property="categorySortOrder" jdbcType="INTEGER" />
+		<result column="state" property="state" jdbcType="INTEGER" />
+	</resultMap>
+	
+	<sql id="Base_Column_List">
+		category_id, category_parent_id, category_name, category_sort_order, state
+	</sql>
+	
+	<!-- 新增分类 -->
+    <insert id="insertCategory" parameterType="com.fruit.domain.fruit.Category">
+        insert into t_category (category_id, category_parent_id, category_name)
+        values (#{categoryId}, #{categoryParentId}, #{categoryName})
+    </insert>	
+	
+	<!-- 通过分类名查找分类，用于新增分类时校验 -->
+    <select id="getCategoryName" resultMap="BaseResultMap" parameterType="java.lang.String">
+        select <include refid="Base_Column_List" /> from t_category
+        where category_name = #{categoryName}
+    </select>
+	
+	<!-- 查询所有一级分类 （By 排列顺序）-->
+    <select id="listAllCategoryOne" resultMap="BaseResultMap" parameterType="java.lang.String">
+        select <include refid="Base_Column_List" /> from t_category where category_parent_id = 0 order by category_sort_order
+    </select>	
+	
+	<!-- 通过父分类Id查找一级分类下的二级分类（By 排列顺序） -->
+	<select id="listAllCategoryTwoByCategoryParentId" resultMap="BaseResultMap" parameterType="java.lang.Integer">
+        select <include refid="Base_Column_List" /> from t_category where category_parent_id = #{categoryParentId} order by category_sort_order
+    </select>   
+	
+	<!-- 修改分类名（最后加上权限）-->
+    <update id="updateCategoryName" parameterType="com.fruit.domain.fruit.Category">
+        update t_category set category_name = #{categoryName} where category_id = #{categoryId}
+    </update>	
+	
+	<!-- 修改分类的排列序号（即展示的顺序） -->
+    <update id="updateCategorySortOrder" parameterType="com.fruit.domain.fruit.Category">
+        update t_category set category_sort_order = #{categorySortOrder} where category_id = #{categoryId}
+    </update>	
+	
+	<!-- 修改分类的状态 -->
+    <update id="updateCategoryState" parameterType="com.fruit.domain.fruit.Category">
+        update t_category set state = #{state} where category_id = #{categoryId}
+    </update>	
+	
+</mapper>

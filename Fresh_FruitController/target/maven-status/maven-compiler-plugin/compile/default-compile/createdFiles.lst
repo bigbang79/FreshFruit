@@ -1,0 +1,9 @@
+com\fruit\controller\web\UserItemController.class
+com\fruit\controller\web\RepertoryController.class
+com\fruit\controller\quartz\QuartzController.class
+com\fruit\controller\web\RedisController.class
+com\fruit\controller\web\BrandController.class
+com\fruit\controller\web\CategoryController.class
+com\fruit\controller\web\PlaceController.class
+com\fruit\controller\web\ItemController.class
+com\fruit\controller\quartz\QuartzJob.class

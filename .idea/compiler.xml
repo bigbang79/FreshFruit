@@ -6,15 +6,34 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+<<<<<<< HEAD
         <module name="Fresh_Common" />
         <module name="Fresh_Domain" />
         <module name="Fresh_Mapper" />
+=======
+        <module name="Fresh_CarController" />
+        <module name="Fresh_CarService" />
+        <module name="Fresh_CarServiceProvider" />
+        <module name="Fresh_Common" />
+        <module name="Fresh_Domain" />
+        <module name="Fresh_FastDFSController" />
+        <module name="Fresh_FruitController" />
+        <module name="Fresh_FruitService" />
+        <module name="Fresh_FruitServiceProvider" />
+        <module name="Fresh_Mapper" />
+        <module name="Fresh_ShareController" />
+        <module name="Fresh_ShareServcieProvider" />
+        <module name="Fresh_ShareService" />
+>>>>>>> 9fe2b1071f65d974e6994ec675abbfdad13fe030
         <module name="Fresh_SSOController" />
         <module name="Fresh_SSOService" />
         <module name="Fresh_SSOServiceProvider" />
         <module name="Fresh_UserService" />
         <module name="Fresh_UserServiceProvider" />
+<<<<<<< HEAD
         <module name="Fresh_Web" />
+=======
+>>>>>>> 9fe2b1071f65d974e6994ec675abbfdad13fe030
         <module name="Fresh_WebController" />
       </profile>
     </annotationProcessing>
