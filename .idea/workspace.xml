@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48f74f10-4b59-495c-a210-cdc2f227010d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="48f74f10-4b59-495c-a210-cdc2f227010d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/Fresh_SSOServiceProvider/target/" />
     <ignored path="$PROJECT_DIR$/Fresh_SSOController/target/" />
     <ignored path="$PROJECT_DIR$/Fresh_Common/target/" />
@@ -1728,12 +1726,20 @@
       <workItem from="1537459961167" duration="2228000" />
       <workItem from="1537496404431" duration="20480000" />
       <workItem from="1537582352849" duration="5701000" />
-      <workItem from="1537609754377" duration="798000" />
+      <workItem from="1537609754377" duration="1124000" />
     </task>
+    <task id="LOCAL-00001" summary="看就看就看好机会">
+      <created>1537610650631</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1537610650631</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110366000" />
+    <option name="totallyTimeSpent" value="110692000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1753,10 +1759,10 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.3293011" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.10458453" side_tool="true" weight="0.23387097" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.6350746" side_tool="true" visible="true" weight="0.52141804" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.18839541" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3293011" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.36492538" visible="true" weight="0.52141804" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8954155" weight="0.3293011" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.5480059" />
@@ -1820,6 +1826,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="看就看就看好机会" />
+    <option name="LAST_COMMIT_MESSAGE" value="看就看就看好机会" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
